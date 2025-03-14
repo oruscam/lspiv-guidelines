@@ -10,6 +10,8 @@
   <img src="img/portada.png">
 </p> 
 
+<p align="center"> Version: 1.0.0 </p> 
+
 <p align="center">
   <img src="img/logo2_EN.png">
 </p> 
@@ -46,12 +48,12 @@ This guide was reviewed by members of the WMO HydroHub Think Tank, the WMO Secre
 -   Johanna Korhonen, WMO Secretariat.
 -   Cecilia Maroñas,  Inter-American Development Bank (IDB).
 -   Salvador Peña, WMO HydroHub Think Tank.
--   Cristina Wahrmann, Costa Rican Institute of Electricity (ICE).
+-   Cristina Wahrmann, Costa Rican Institute of Electricity (ICE) and WMO HydroHub Think Tank.
 -   Marco Serrano, Costa Rican Institute of Electricity (ICE).
 -   María José Torres, Costa Rican Institute of Electricity (ICE).
 -   Shawn Boyce, Caribbean Institute for Meteorology and Hydrology (CIMH) and WMO HydroHub Think Tank.
--   James Bomhof, National Hydrological Service of Environment and Climate Change Canada (ECCC) and WMO Expert Team on Hydrometry.
--   Yirgalem Gebremichael, WMO.
+-   James Bomhof, Water Survey of Canada, Environment and Climate Change Canada (ECCC).
+-   Yirgalem Gebremichael, WMO Secretariat.
 
 ## **Purpose**
 
