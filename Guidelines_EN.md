@@ -2,8 +2,8 @@
   <img src="img/logo1_.png">
 </p> 
 
-<h1 style="text-align:center;">Introductory practical guide to flow measurement using images</h1>
-<h2 style="text-align:center;">Recommendations for the use of the LSPIV technique</h2>
+<h1 align="center">Introductory practical guide to flow measurement using images</h1>
+<h2 align="center">Recommendations for the use of the LSPIV technique</h2>
 
 
 
