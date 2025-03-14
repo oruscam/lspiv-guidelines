@@ -337,12 +337,13 @@ In highly turbulent flows, such as areas near hydraulic jumps, there are usually
 ## 1.4 Guide organization
 
 As you progress through this guide, the two main phases of the LSPIV-based discharge measurement process will be detailed: **fieldwork** and **processing steps**. In the *Fieldwork* chapter, the recommendations and procedures necessary for proper data collection at the measurement site will be covered. Subsequently, in the *Processing steps* chapter, the processes and techniques for processing and analyzing the collected data will be detailed. This structure is designed to guide the reader through all stages of the process, from site preparation to final result interpretation, ensuring consistency and quality in measurements.
-
-
 Additionally, annexes will be included, covering more technical and specific topics for those who wish to delve deeper into the details of the process and the methodologies employed.
 
-
+&nbsp;
+&nbsp;
 ***
+&nbsp;
+&nbsp;
 
 # 2. Fieldwork
 
@@ -412,7 +413,7 @@ Specific recommendations for each type of recording are related to site selectio
 
 Image-based velocimetry techniques are not suitable for all sites, and the selection criteria may differ from those of other techniques. Proper site selection is crucial to obtaining reliable results and facilitating both fieldwork and video processing. The recommendations for site selection are:
 
-<u>Related to the channel reach ([Figure 13](#fig13)):</u>
+<span style="text-decoration: underline;">Related to the channel reach ([Figure 13](#fig13)):</span>
 
 Preferred:
 
