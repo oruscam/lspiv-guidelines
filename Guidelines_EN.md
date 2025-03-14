@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="img/logo1_.png">
+  <img src="img/logo1.png">
 </p> 
 
 <h1 align="center">Introductory practical guide to flow measurement using images</h1>
 <h2 align="center">Recommendations for the use of the LSPIV technique</h2>
-
 
 
 <p align="center">
@@ -12,7 +11,7 @@
 </p> 
 
 <p align="center">
-  <img src="img/logo3_.png">
+  <img src="img/logo2_EN.png">
 </p> 
 
 *** 
@@ -393,7 +392,7 @@ This system enables recordings to be obtained without requiring a person on-site
 
 
 <a id="tab1"></a> 
-Table 1: Accepted rectification types according to recording method.
+<p align="center">Table 1: Accepted rectification types according to recording method.</p>
 
 | Recording Method | Possible Rectification | Suggested Rectification |
 |:----------------:|:----------------------:|:-----------------------:|
@@ -414,7 +413,7 @@ Specific recommendations for each type of recording are related to site selectio
 
 Image-based velocimetry techniques are not suitable for all sites, and the selection criteria may differ from those of other techniques. Proper site selection is crucial to obtaining reliable results and facilitating both fieldwork and video processing. The recommendations for site selection are:
 
-<span style="text-decoration: underline;">Related to the channel reach ([Figure 13](#fig13)):</span>
+*Related to the channel reach ([Figure 13](#fig13)):*
 
 Preferred:
 
@@ -422,7 +421,7 @@ Preferred:
 2.  Sites that allow for easy camera positioning in a perpendicular view.
 3.  Accessible areas for bathymetric surveys (see Section [2.2](#22-bathymetric-survey)) and for marking and surveying CPs.
 
-*To avoid:*
+To avoid:
 
 4.  Reaches with flow obstructions in the surrounding area.
 5.  Reaches with hydraulic jumps or highly turbulent zones.
@@ -450,7 +449,7 @@ Preferred:
 </p>  
 <p align="center">Figure 14: Schematic examples of natural tracer conditions. (A) No visible tracers. (B) Tracers visible only in certain areas. (C) Presence of stationary waves. (D) Presence of shadows and reflections. (E) Visible and uniformly distributed tracers. <em>Source:</em> Own elaboration</p>
 
-5.  If the water is clear or there are no visible natural tracers on the water surface, artificial tracers must be seeded. For more details, refer to [Annex 4](#An4).
+6.  If the water is clear or there are no visible natural tracers on the water surface, artificial tracers must be seeded. For more details, refer to [Annex 4](#An4).
 
 <a id="fig15"></a>  
 <p align="center">
@@ -502,7 +501,6 @@ Regarding on-site recommendations, the following should be considered:
   <img src="./img/fig18.png">
 </p>  
 <p align="center">Figure 18: Schematic representation of UAV movement during video recording with a perpendicular view. (A) Longitudinal and/or transverse displacements. (B) Large erratic movements. (C) Stable or with minimal movement over a fixed position. <em>Source:</em> Own elaboration</p>
-
 
 
 3.  Ensure that the entire channel width, including the target cross-section, is fully visible within the image ([Figure 19](#fig19)).
@@ -611,37 +609,37 @@ Below is a basic checklist of elements to verify when conducting a monitoring ca
 
 Before leaving the measurement site, answer the following questions:
 
-1. **Do you have a recorded video?**
-❌ NO → Record a video at the site.
-✅ YES → Continue
+1. **Do you have a recorded video?**  
+❌ NO → Record a video at the site.  
+✅ YES → Continue  
 
-1. **Is the video stable?**
-❌ NO → Re-record, checking for UAV movements and wind conditions.
-✅ YES → Continue
+1. **Is the video stable?**  
+❌ NO → Re-record, checking for UAV movements and wind conditions.  
+✅ YES → Continue  
 
-1. **s the entire channel width visible in the video?**
-❌ NO → Adjust the recording position.
-✅ YES → Continue
+1. **s the entire channel width visible in the video?**  
+❌ NO → Adjust the recording position.  
+✅ YES → Continue  
 
-1. **Are the surface tracers clearly visible in the video?**
-❌ NO → Reduce UAV altitude or seed artificial tracers.
-✅ YES → Continue
+1. **Are the surface tracers clearly visible in the video?**  
+❌ NO → Reduce UAV altitude or seed artificial tracers.  
+✅ YES → Continue  
 
-1. **Are the CPs easily identifiable in the video?**
-❌ NO → Add or modify CP markers.
-✅ YES → Continue
+1. **Are the CPs easily identifiable in the video?**  
+❌ NO → Add or modify CP markers.  
+✅ YES → Continue  
 
-1. **Has the survey of CPs and the bathymetry of at least one cross-section been completed?**
-❌ NO → Conduct the necessary surveys.
-✅ YES → Continue
+1. **Has the survey of CPs and the bathymetry of at least one cross-section been completed?**  
+❌ NO → Conduct the necessary surveys.  
+✅ YES → Continue  
 
-1. **Do you have the free surface water level measurement?**
-❌ NO → Measure the free surface water level.
-✅ YES → Continue
+1. **Do you have the free surface water level measurement?**  
+❌ NO → Measure the free surface water level.  
+✅ YES → Continue  
 
-1. **Have all details been recorded in the field notebook?**
-❌ NO → It is recommended to do so.
-✅ YES → Ready for processing!
+1. **Have all details been recorded in the field notebook?**  
+❌ NO → It is recommended to do so.  
+✅ YES → Ready for processing!  
 
 &nbsp;
 &nbsp;
@@ -729,7 +727,6 @@ The person conducting the measurement must bring a camera to the measurement sit
 2.  Walk along both riverbanks and check any available bridges to determine the best viewing angle, following the recommendations regarding tracers and CPs ([Figure 27](#fig27)).
 
 
-![](imgaa/7e94831a4524db612ab19e5cc7d27258.png)
 <a id="fig27"></a>  
 <p align="center">
   <img src="./img/fig27.png">
@@ -901,10 +898,9 @@ Preferred:
 
 To avoid:
 
-6.  Reaches with flow obstructions in the surrounding area.
-7.  Reaches with flow obstacles in the surrounding environment.
-8.  Reaches with hydraulic jumps or highly turbulent zones within the range of water levels of interest.
-9.  Reaches influenced by tidal effects, backwater effects, or other conditions that make it difficult to accurately quantify the alpha coefficient (only relevant for discharge calculations).
+1.  Reaches with flow obstructions in the surrounding area.
+2.  Reaches with hydraulic jumps or highly turbulent zones within the range of water levels of interest.
+3.  Reaches influenced by tidal effects, backwater effects, or other conditions that make it difficult to accurately quantify the alpha coefficient (only relevant for discharge calculations).
 
 
 <a id="fig32"></a>  
@@ -927,15 +923,12 @@ To avoid:
 </p>  
 <p align="center">Figure 33: Schematic examples of natural tracer conditions. (A) No visible tracers. (B) Tracers visible only in certain areas. (C) Presence of shadows and reflections. (D) Visible and uniformly distributed tracers. <em>Source:</em> Own elaboration</p>
 
-
-
 *Related to the cross-section (XS):*
 
 1.  Define at least one cross-section for study, although multiple sections can be defined to improve discharge estimation by averaging the values obtained at each section.
 2.  Prefer sections with regular geometry, avoiding highly irregular profiles or those with large rocks (macro-rough flows).
 3.  Select sections that are stable and not subject to significant erosion or sedimentation during the measurement period.
 4.  Prefer sections where most of the recommendations regarding the study reach, tracers, and meteorological conditions are met.
-
 
 
 #### 2.1.3.2 Camera positioning
@@ -956,9 +949,7 @@ To avoid:
 <p align="center">Figure 34: Schematic examples of different visualization conditions for a Fixed Station. (A) Station mounted on an unstable structure. (B) Station with an obstructed view. (C) Station positioned too far from the measurement area. (D) Station with a clear and unobstructed view for the range of interest. <em>Source:</em> Own elaboration</p>
 
 
-
 #### 2.1.3.3 Control Points
-
 
 To perform rectification on videos captured by a Fixed station with a camera mounted in a fixed oblique position, a 3D rectification process must be used. This process requires Control Points (CPs), which can be pre-existing elements in the environment or temporarily marked points. These points must be clearly visible in the images, and both their spatial coordinates (*x, y, z*) and their pixel coordinates in the image must be known. At least six CPs are needed, evenly distributed within the camera’s field of view. The following recommendations should be considered when selecting and using CPs:
 
@@ -986,9 +977,7 @@ To perform rectification on videos captured by a Fixed station with a camera mou
 <p align="center">Figure 36: Example of an indicator marking the GNSS Differential pole position during CP surveying. <em>Source:</em> Own elaboration</p>
 
 
-
 #### 2.1.3.4 Integration with water level sensor and staff gauge
-
 
 For optimal use of Fixed Stations for discharge measurement, it is essential to have water level data that allows for automated processing. Such data is typically obtained from an external water level sensor. However, in many cases, the water level sensor does not measure at the exact cross-section used for discharge measurement. For example, if the site has a bridge, the sensor might be installed on the structure, while the cross-section viewed from the station could be located several meters upstream or downstream. Therefore, it is necessary to establish a relationship between the level recorded by the sensor ($H_{S}$) and the level at the section of interest ($H_{X S}$) ([Figure 37](#fig37)).
 
@@ -1166,7 +1155,7 @@ Figure 39: Variation in the number of frames per second during image extraction.
 
 The image correction and stabilization stage involves correcting any unintended camera movement during recording, as well as possible distortions caused by the lens used. Both corrections are not always necessary and will depend on the recording conditions. Below are general comments on both corrections, while additional technical details can be found in [Annex 1](#An1).
 
-**Camera motion correction**: If there was unintended camera movement during recording, it is essential to stabilize the images before proceeding. Many processing software tools offer automatic tools to correct these movements by aligning images based on fixed points in the scene. An easy way to check for camera movement in the image sequence is to place the cursor over a fixed landmark, such as a Control Point (CP). Then, without moving the cursor, visually scan through all the images. If at any point the cursor no longer aligns with the fixed element, it means that movement is present in the sequence and must be corrected ([Figure 41](#fig41)).
+**Camera motion correction:** If there was unintended camera movement during recording, it is essential to stabilize the images before proceeding. Many processing software tools offer automatic tools to correct these movements by aligning images based on fixed points in the scene. An easy way to check for camera movement in the image sequence is to place the cursor over a fixed landmark, such as a Control Point (CP). Then, without moving the cursor, visually scan through all the images. If at any point the cursor no longer aligns with the fixed element, it means that movement is present in the sequence and must be corrected ([Figure 41](#fig41)).
 
 Check the documentation of the software being used to learn how to execute the motion correction process. It is essential that static elements in the images, such as riverbanks, remain fixed and do not shift from one frame to another (e.g., vegetation swayed by the wind). After correction, ensure that CPs remain visible and correctly positioned in each image.
 
@@ -1177,9 +1166,7 @@ Check the documentation of the software being used to learn how to execute the m
 <p align="center">Figure 41: Camera motion correction in an extracted image sequence. Top: Sequence with camera movement. Bottom: Sequence with corrected motion. <em>Source:</em> Own elaboration</p>
 
 
-**Lens distortion correction**:
-
-Some camera lenses, particularly wide-angle or fisheye lenses, can introduce geometric distortions in images, altering the field of view. If these distortions are significant, they must be corrected before continuing with processing. A simple way to visually identify lens distortion is to check whether straight objects in reality appear curved in the images, especially near the edges ([Figure 42](#fig42)).
+**Lens distortion correction:** Some camera lenses, particularly wide-angle or fisheye lenses, can introduce geometric distortions in images, altering the field of view. If these distortions are significant, they must be corrected before continuing with processing. A simple way to visually identify lens distortion is to check whether straight objects in reality appear curved in the images, especially near the edges ([Figure 42](#fig42)).
 
 Most LSPIV software includes options to apply lens correction models based on the camera’s technical specifications. In some cases, it may be necessary to manually input lens parameters (such as focal length and lens type) to achieve better results. If this correction is required, refer to the software manual and/or [Annex 1](#An1) for more details.
 
@@ -1196,7 +1183,6 @@ Most LSPIV software includes options to apply lens correction models based on th
 In this step, the geometry of the images is transformed to convert pixel distances into length units (e.g., meters). Some software tools perform rectification directly on the images before processing, while others apply this correction to the surface velocity fields after processing. In both cases, the procedure remains the same. The following sections detail the rectification process according to the video recording mode. For more information, refer to [Annex 3](#An3).
 
 #### 3.3.4.1 Perpendicular recording: 1D Rectification
-
 
 A 1D rectification requires two Control Points (CPs) visible in the image. These points must be fixed landmarks in the terrain with a known real-world distance between them. The rectification process requires the following steps ([Figure 43](#fig43)):
 
@@ -1232,8 +1218,6 @@ To perform a 2D rectification, four Control Points (CPs) visible in the image ar
 <p align="center">Figure 44: Control Point positioning in 2D rectification. <em>Source:</em> Own elaboration</p>
 
 
-*Source:* Own elaboration
-
 > <p align="center"> ⚠️ <strong>Error Control</strong> ⚠️ </p>  
 > 
 > *Ensure that the rectified image has a perpendicular perspective. While the edges may show some deformations, the area of interest should be displayed correctly. If the image is highly distorted, there may be an error in CP positioning or in the entered distances.*
@@ -1242,8 +1226,6 @@ To perform a 2D rectification, four Control Points (CPs) visible in the image ar
   <img src="./img/figX2.png"> </p>
 >  <p align="center">Figure 44b: Examples of 2D rectification control. <em>Source:</em> Own elaboration</p>
 > 
-
-
 
 #### 3.3.4.3 Fixed station: 3D Rectification
 
@@ -1396,6 +1378,8 @@ The final step in the LSPIV processing workflow is to estimate discharge based o
 1.  Velocity Comparison: When comparing LSPIV results with velocity measurements from other methods, it is essential to consider that LSPIV measures surface velocities, whereas techniques such as ADCPs or current meters may record depth-averaged velocities or velocities at a specific depth. Therefore, ensuring that the velocities being compared are equivalent is crucial, or appropriate adjustments should be applied.
 2.  Discharge Comparison: LSPIV discharge estimates can also be validated by comparing them with reference measurements. These comparisons may lead to adjustments that improve the accuracy of the alpha coefficient, which is used to convert surface velocity into depth-averaged velocity. This aspect is discussed in more detail in [Annex 6](#An6).
 
+***
+
 # 4. Bibliography
 
 
@@ -1437,7 +1421,7 @@ Tauro, F., Petroselli, A., Porfiri, M., Giandomenico, L., Bernardi, G., Mele, F.
 
 **Software:**
 
-Le Coz, J., Jodeau, M., Marchand, B., & Le Boursicaud, R. (2014). Image-based velocity and discharge measurements in field and laboratory river engineering studies using the free FUDAA-LSPIV software. *River Flow*, 7. <https://doi.org/hal-02600735>  
+Le Coz, J., Jodeau, M., Marchand, B., & Le Boursicaud, R. (2014). Image-based velocity and discharge measurements in field and laboratory river engineering studies using the free FUDAA-LSPIV software. *River Flow*, 7.  
 
 Patalano, A., García, C. M., & Rodríguez, A. (2017). Rectification of image velocity results (RIVeR): A simple and user-friendly toolbox for large scale water surface particle image velocimetry (PIV) and particle tracking velocimetry (PTV). *Computers and Geosciences, 109*(June), 323–330. <https://doi.org/10.1016/j.cageo.2017.07.009>  
 
@@ -1453,7 +1437,6 @@ Winsemius, H., Annor, F. O., Hagenaars, R., van de Giesen, N., Luxemburg, W., & 
 ***
 
 # 5. Glossary
-
 
 $\alpha$: Surface-to-depth velocity correction coefficient
 
@@ -1597,7 +1580,6 @@ Feature matching relies on feature descriptors. Characteristics such as size, or
 <p align="center">Figure A.1.4: Example of feature matching. <em>Source:</em> Own elaboration</p>   
 
 
-
 When the number of detected features is high or when features are not well defined, matching errors may occur, including redundant matches, undetected matches, or incorrect correspondences. Various approaches exist to minimize these errors, using algorithms that assign weights to descriptors as quantitative measures of match quality (e.g., the ORSAN method (*Moisan et al., 2004*)).
 
 Feature matching must be performed throughout the entire image sequence. There are two main approaches:
@@ -1633,7 +1615,6 @@ where $\mathbf{X}$ and $\mathbf{X '}$ are the position vectors of the matched fe
  <em>Source:</em> Hartley & Zisserman (2004)</p> 
 
 
-
 1.  *Similarity transformation:* Preserves shapes (angles and parallelism) and allows uniform scaling, rotation, and translation. The transformation matrix includes a scale factor $s$, a rotation angle $\theta$, and translation $t_{x}$ and $t_{y}$.
 
 <a id="e13"></a>  
@@ -1662,7 +1643,6 @@ Greater accuracy in the estimated transformation is achieved when a larger numbe
   <img src="./img/figA16.png">
 </p>  
 <p align="center">Figure A.1.6: Result of applying a similarity transformation. Left: Original image. Right: Transformed image <em>Source:</em> Own elaboration</p>  
-
 
 Finally, motion correction is performed for each pair of analyzed images by detecting features, extracting descriptors from each image, matching features, estimating the transformation matrix, and subsequently correcting the image. The quality of the result depends on the accuracy of each stage. For example, incorrect matching can lead to erroneous transformations, while a poorly defined mask can introduce noise into the process.
 
@@ -1722,7 +1702,6 @@ Brown’s distortion model is widely used to describe lens imperfections. These 
 <p align="center">
   <img src="./img/e111.png">
 </p>  
-
 
 where:
 
@@ -1827,7 +1806,6 @@ Histogram equalization is another common method, modifying the brightness level 
 
 A simple way to implement this filter is to subtract the mean image from the sequence of images used ([Figure A.1.13](#figA113)). This reduces noise and eliminates static elements that could introduce bias. This approach assumes that stationary features in the image are sources of error and removes them (Honkanen & Nobach, 2005). Similar to binarization, this method can be particularly useful for images of flows with artificial tracers.
 
-![](imgaa/af9fe5ca933d68d81a7f2a2a430fe40a.png)
 <a id="figA113"></a>  
 <p align="center">
   <img src="./img/figA113.png">
@@ -1862,7 +1840,6 @@ In summary, selecting the right filter is a flexible and dynamic task that requi
 &nbsp;&nbsp;&nbsp;&nbsp;[2.1 Cross-correlation algorithms](#21-cross-correlation-algorithms)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2.2 Sub-pixel estimation](#22-sub-pixel-estimation)  
 &nbsp;&nbsp;&nbsp;&nbsp;[2.3 Post-processing filters](#23-post-processing-filters)  
-
 
 
 # 2. Particle image velocimetry – PIV
@@ -1939,7 +1916,6 @@ In this method, the calculation is performed in the spatial domain, allowing int
 <p align="center">Figure A.2.5: Calculation of the correlation matrix using DCC. Interrogation area A (4×4 pixels) is correlated with search area B (8×8 pixels), resulting in a correlation matrix (9×9 pixels). <em>Source:</em> Own elaboration</p> 
 
 
-
 ### 2.1.2 Fast Fourier transform– FFT:
 
 This method improves efficiency by computing cross-correlation in the frequency domain. According to the correlation theorem, cross-correlation in the spatial domain is equivalent to multiplying the Fourier transforms in the frequency domain:
@@ -1998,9 +1974,7 @@ There are many outlier detection methods, and their applicability and effectiven
 1.  **Filtering by velocity limit values:** This basic method defines minimum and maximum velocity limits, either for each velocity component or for the total magnitude. The thresholds can be subjectively defined, requiring prior knowledge of expected velocities, or statistically defined, based on parameters such as the mean and standard deviation. For example, a filter may be applied based on the mean velocity plus a defined number of standard deviations, eliminating data outside these limits.
 2.  **Filtering based on neighbor analysis:** In this method, the coherence of a velocity vector is evaluated by comparing it to its closest neighbors in the grid. Characteristics such as magnitude or direction are analyzed, removing values that significantly differ from their neighbors. This approach is particularly useful because it adapts to the local flow conditions, providing a robust outlier detection strategy in complex scenarios. An example is the normalized median test (Westerweel & Scarano, 2005), which evaluates velocity fluctuations relative to the median within a 3×3 neighborhood.
 3.  **Filtering based on correlation quality**: Cross-correlation quality parameters can be used as indicators of result reliability. One such parameter is the normalized cross-correlation coefficient (NCC), derived from the normalization of Equation 2.2. This coefficient ranges from 0 to 1, where 0 indicates no correlation and 1 represents perfect correlation. Its use consists of defining an acceptable NCC value range, typically between 0.5 and 0.98. NCC is widely implemented due to its usefulness as a general quality indicator (Lewis, 1995). However, challenges exist in precisely defining these thresholds, and their interpretation can be complex in natural flows, where surface roughness or image artifacts may affect correlation without necessarily indicating poor displacement estimation.
-
 Other commonly used correlation plane quality parameters include (Keane & Adrian, 1992): Peak-to-mean correlation ratio (PMCR), the ratio between the highest correlation peak and the mean correlation value, and Peak-to-peak correlation ratio (PPCR) the ratio between the highest and second-highest correlation peaks.
-
 4.  **Interpolation and filling of missing data:** Once outliers are detected and removed, these data must be replaced to maintain spatial continuity in the velocity field. Various interpolation techniques exist, such as nearest-neighbor interpolation or more advanced methods like bidimensional spline interpolation (Stamhuis & Videler, 1995). These methods efficiently reconstruct the velocity field, reducing the influence of eliminated outliers.
 5.  **Smoothing and noise reduction**: To minimize noise in velocity measurements, smoothing methods are commonly applied. One of the most used techniques is the moving average filter (Raffel et al., 2007), which smooths unwanted fluctuations while preserving the general characteristics of the flow. Alternatively, convolutions or other mean-based methods can be applied, depending on the specific needs of the analysis.
 
@@ -2117,7 +2091,6 @@ the relationship [(3.7)](#e37) remains unchanged. Thus, the presence of the elem
 </p> 
 
 This relationship [(3.9)](#e39) is used to perform what is referred to here as 3D Rectification. How this relation is used in the rectification process will be detailed later in Section 3.2.3. Additionally, it is the starting point for defining the *Homography Matrix*.
-
 
 
 ## 3.2 Homography matrix
@@ -2351,7 +2324,6 @@ The type of tracers used varies by region, as materials are often sourced from a
 
 The term "seeding" refers to the distribution of artificial tracers over the water surface. This process is crucial to ensure quality measurements in LSPIV. To achieve reliable results, it is essential that the distribution of tracers is homogeneous in both space and time. This means that there should be no gaps without particles, tracers must cover the entire width of the channel, and the distribution should remain consistent throughout the entire video recording. [Figure A.4.7](#figA47) provides examples of different tracer distributions within the measurement area.
 
-![](imgaa/b5abeb7dab6dce98bafd3bf81f8f67bd.png)
 <a id="figA47"></a>  
 <p align="center">
   <img src="./img/figA47.png">
@@ -2371,7 +2343,6 @@ Operators can seed the tracers from: the riverbanks, within the channel, or from
 
 Additionally, special care should be taken to avoid obstructing the recording with the operator’s body or objects during seeding. For instance, if a camera is recording, and an operator is seeding nearby, they must ensure that their arm or the tracers in the air do not block the flow measurement area, as this would affect visibility ([Figure A.4.9](#figA49)). Moreover, when wind conditions are strong, it is important to consider its impact during seeding. Wind can disrupt tracer distribution, causing them to scatter in unintended directions before reaching the water surface.
 
-![](imgaa/953b82abd7b181e4426781cce8e5c005.png)
 <a id="figA49"></a>  
 <p align="center">
   <img src="./img/figA49.png">
@@ -2493,7 +2464,7 @@ In cold regions, the water surface may be partially or completely frozen, formin
 [5. Interpolation/extrapolation of velocity profile data](#5-interpolation-extrapolation-of-velocity-profile-data)  
 &nbsp;&nbsp;&nbsp;&nbsp;[5.1 Need for interpolation and extrapolation](#51-need-for-interpolation-and-extrapolation)  
 &nbsp;&nbsp;&nbsp;&nbsp;[5.2 Commonly used methods](#52-commonly-used-methods)  
-&nbsp;&nbsp;&nbsp;&nbsp;[5.3 Comments on measurement quality (adapted from WaMSTeC, 2021))](#53-comments-on-measurement-quality-adapted-from-wamstec-2021)  
+&nbsp;&nbsp;&nbsp;&nbsp;[5.3 Comments on measurement quality (adapted from WaMSTeC, 2021)](#53-comments-on-measurement-quality-adapted-from-wamstec-2021)  
 
 # 5. Interpolation/extrapolation of velocity profile data
 
@@ -2759,9 +2730,9 @@ Table A.6.1: Estimation of α based on site roughness and expected power law exp
 
 |                       | Normal      | Smooth | Rough | Very Rough | Extreme Cases |
 |:-------------------:|:-----------:|:-----:|:------:|:----------:|:--------------:|
-| $ \mathbf{m} $      | 6-7         | 10     | 4     | 2-3        |               |
-| $ \mathbf{M} $      | 0.143-0.167 | 0.1    | 0.25  | 0.333-0.5  |               |
-| $ \mathbf{\alpha} $ | 0.86-0.87   | 0.91   | 0.8   | 0.67-0.75  | 0.6-1.2       |
+| $m$      | 6-7         | 10     | 4     | 2-3        |               |
+| $M$      | 0.143-0.167 | 0.1    | 0.25  | 0.333-0.5  |               |
+| ${\alpha}$ | 0.86-0.87   | 0.91   | 0.8   | 0.67-0.75  | 0.6-1.2       |
 
 *Source:* Biggs et al. (2021)
 
@@ -2896,7 +2867,7 @@ Litvin, A., Konrad, J., & Karl, W. C. (2003). Probabilistic video stabilization 
 
 Matas, J., Chum, O., Urba, M., & Pajdla, T. (2002). Robust wide-baseline stereo from maximally stable extremal regions. *Proceedings of British Machine Vision Conference*, 384–396.  
 
-Meselhe, E. A., Peeva, T., & Muste, M. (2004). Large scale particle image velocimetry for low velocity and shallow water flows. <https://doi.org/10.1061/ASCE0733-94292004130:9937>  
+Meselhe, E. A., Peeva, T., & Muste, M. (2004). Large scale particle image velocimetry for low velocity and shallow water flows. *Journal of Hydraulic Engineering*. <https://doi.org/10.1061/(ASCE)0733-9429(2004)130:9(937)>  
 
 Moisan, L., & Stival, B. A. (2004). A probabilistic criterion to detect rigid point matches between two images and estimate the fundamental matrix. *International Journal of Computer Vision, 57*(3), 201-208.  
 

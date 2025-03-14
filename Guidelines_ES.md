@@ -9,11 +9,9 @@
 <p align="center">
   <img src="img/portada.png">
 </p> 
+
 <p align="center">
-  <img src="img/logo2.png">
-</p> 
-<p align="center">
-  <img src="img/logo3.png">
+  <img src="img/logo2_ES.png">
 </p> 
 
 *** 
@@ -393,7 +391,7 @@ Este sistema facilita la obtención de grabaciones sin estar presente en el siti
 
 
 <a id="tab1"></a> 
-Tabla 1: Tipos de rectificación admitidos según tipos de grabación
+Tabla 1: Tipos de rectificación admitidos según tipos de grabación.
 
 | Tipo de Grabación | Rectificación posible | Rectificación sugerida |
 |:-----------------:|:---------------------:|:----------------------:|
@@ -454,7 +452,7 @@ Evitar:
 <p align="center">Figura 14: Esquemas de ejemplos de condiciones de trazadores naturales. A) Sin trazadores visibles. B) Con trazadores visibles solo en un sector. C) Con ondas estacionarias. D) Con sombras y reflexiones. E) Con trazadores visibles y uniformes. <em>Fuente:</em> Elaboración propia</p>
 
 
-1.  En sitios con agua transparente o sin trazadores naturales visibles en la superficie del agua, será necesario utilizar trazadores artificiales. Para mayor detalle revisar el [Anexo 4](#An4).
+6.  En sitios con agua transparente o sin trazadores naturales visibles en la superficie del agua, será necesario utilizar trazadores artificiales. Para mayor detalle revisar el [Anexo 4](#An4).
 
 
 <a id="fig15"></a>  
@@ -485,7 +483,6 @@ Evitar:
 7.  Medir el nivel de la superficie libre del flujo. Si se utilizan instrumentos externos (p.ej., sensores o reglas hidrométricas), los datos deben estar referenciados al mismo datum que el relevamiento batimétrico de la sección de análisis.
 
 #### 2.1.1.2 Ubicación de la cámara
-
 
 En la grabación perpendicular, la cámara se posiciona de manera perpendicular a la superficie del flujo, lo cual se logra, en la mayoría de los casos, utilizando un VANT. Por ello, es importante en primer lugar tener en cuenta las reglamentaciones locales relacionadas con el uso de VANTs, ya que en muchos países existen normativas que restringen su operación, especialmente en áreas urbanas o cercanas a aeropuertos. Antes de realizar cualquier medición, se debe verificar el marco legal y obtener los permisos correspondientes para garantizar un uso seguro y legal del equipo.
 
@@ -541,7 +538,6 @@ Para la rectificación 1D en grabación perpendicular se requieren dos Puntos de
 2.  Los CPs deben estar a la misma altura que la superficie libre del flujo.
 3.  Deben ser fácilmente identificables, con un tamaño y color que permitan su rápida localización.
 4.  Los puntos deben permanecer estáticos durante toda la grabación del video, sin moverse ni cambiar de lugar.
-
 
 
 <a id="fig20"></a>  
@@ -855,37 +851,37 @@ Se detalla a continuación una lista base de elementos a chequear al momento de 
 
 Antes de retirarse del sitio de medición responda estas preguntas:
 
-1. **¿Tiene un video grabado?**
-❌ NO → Grabar un video en el sitio
-✅ SI → Continuar
-&nbsp;
-2. **¿El video es estable?**
-❌ NO → Volver a grabar asegurando la estabilidad de la cámara.
-✅ SI → Continuar
-&nbsp;
-3. **¿El ancho completo del cauce es visible en el video?**
-❌ NO → Cambiar el punto de grabación.
-✅ SI → Continuar
-&nbsp;
-4. **¿Son fácilmente visibles los trazadores superficiales en el video?**
-❌ NO → Cambiar el punto de grabación o utilizar trazadores artificiales
-✅ SI → Continuar
-&nbsp;
-5. **¿Son fácilmente identificables los CPs en el video?**
-❌ NO → Agregar o modificar los marcadores de los CPs.
-✅ SI → Continuar
-&nbsp;
-6. **¿Realizó el relevamiento de los CPs y la batimetría de al menos una sección transversal?**
-❌ NO → Realizar relevamientos necesarios.
-✅ SI → Continuar
-&nbsp;
-7. **¿Cuenta con el dato de nivel de superficie libre?**
-❌ NO → Medir el nivel de superficie libre.
-✅ SI → Continuar
-&nbsp;
-8. **¿Asentó toda la información en una libreta de campaña?**
-❌ NO → Se recomienda hacerlo
-✅ SI → ¡Listo para procesar!
+1. **¿Tiene un video grabado?**  
+❌ NO → Grabar un video en el sitio  
+✅ SI → Continuar  
+
+2. **¿El video es estable?**  
+❌ NO → Volver a grabar asegurando la estabilidad de la cámara.  
+✅ SI → Continuar  
+
+3. **¿El ancho completo del cauce es visible en el video?**  
+❌ NO → Cambiar el punto de grabación.  
+✅ SI → Continuar  
+
+4. **¿Son fácilmente visibles los trazadores superficiales en el video?**  
+❌ NO → Cambiar el punto de grabación o utilizar trazadores artificiales  
+✅ SI → Continuar  
+
+5. **¿Son fácilmente identificables los CPs en el video?**  
+❌ NO → Agregar o modificar los marcadores de los CPs  
+✅ SI → Continuar  
+
+6. **¿Realizó el relevamiento de los CPs y la batimetría de al menos una sección transversal?**  
+❌ NO → Realizar relevamientos necesarios  
+✅ SI → Continuar  
+
+7. **¿Cuenta con el dato de nivel de superficie libre?**  
+❌ NO → Medir el nivel de superficie libre  
+✅ SI → Continuar  
+
+8. **¿Asentó toda la información en una libreta de campaña?**  
+❌ NO → Se recomienda hacerlo  
+✅ SI → ¡Listo para procesar!  
 
 &nbsp;
 &nbsp;
@@ -944,7 +940,6 @@ Evitar:
 2.  Preferir secciones de geometría regular, evitando geometrías muy accidentadas o con mucha presencia de rocas de gran tamaño (flujos macro rugosos).
 3.  Definir secciones estables y no sujetas a procesos de erosión o sedimentación significativos durante la medición.
 4.  Preferir secciones en donde se cumplan la mayoría de las recomendaciones referidas al tramo del cauce de estudio, los trazadores y las condiciones meteorológicas.
-
 
 
 #### 2.1.3.2 Ubicación de la cámara
@@ -1032,10 +1027,10 @@ En el caso de Estaciones Fijas, es recomendable relevar un ancho mayor que inclu
 5.  Si el relevamiento de las secciones se realiza con el mismo instrumento con el que se relevan los CPs, realizar ambas tareas en el mismo sistema de coordenadas. Esto es imperativo en el caso de Estaciones Fijas.
 6.  Los equipos que se pueden utilizar son:
     1.  GNSS Diferencial: Permite relevamiento de gran precisión y rapidez, aunque puede verse limitado su uso debajo de estructuras o zonas con mucha presencia de vegetación de gran altura.
-    1.  Estación Total : Permite relevamiento de gran precisión y rapidez, puede vincularse a un sistema de coordenadas geográficas.
-    1.  Nivel Óptico: La precisión puede estar condicionada por la experiencia del operador, y los tiempos de relevamiento pueden aumentar. Puede vincularse a un sistema de coordenadas geográficas.
-    1.  Ecosonda/ADCP: En el caso de secciones cuya profundidad no permite el relevamiento por vadeo, puede utilizarse estos instrumentos para disponer de información allí.
-    1.  Cinta métrica y varilla graduada: Si no se dispone de otros instrumentos, puede realizarse un relevamiento simple con cinta métrica para medir distancias horizontales, y una varilla graduada para las verticales.
+    2.  Estación Total : Permite relevamiento de gran precisión y rapidez, puede vincularse a un sistema de coordenadas geográficas.
+    3.  Nivel Óptico: La precisión puede estar condicionada por la experiencia del operador, y los tiempos de relevamiento pueden aumentar. Puede vincularse a un sistema de coordenadas geográficas.
+    4.  Ecosonda/ADCP: En el caso de secciones cuya profundidad no permite el relevamiento por vadeo, puede utilizarse estos instrumentos para disponer de información allí.
+    5.  Cinta métrica y varilla graduada: Si no se dispone de otros instrumentos, puede realizarse un relevamiento simple con cinta métrica para medir distancias horizontales, y una varilla graduada para las verticales.
 
 
 
@@ -1187,7 +1182,7 @@ Figura 39: Variación de cantidad de imágenes por segundo durante la extracció
 
 La instancia de corrección y estabilización de imágenes consiste en corregir cualquier movimiento involuntario de la cámara durante la grabación, así como posibles distorsiones causadas por el lente utilizado. Ambas correcciones no son siempre necesarias, dependerá de las condiciones de grabación. Aquí se presentan comentarios generales sobre ambas correcciones, mientras que en el [Anexo 1](#An1) se podrá encontrar mayor detalle técnico.
 
-**Corrección de movimiento**: Si durante la grabación hubo movimientos no intencionales de la cámara, es importante estabilizar las imágenes antes de continuar. Muchos softwares de procesamiento ofrecen herramientas automáticas para corregir estos movimientos, alineando las imágenes en base a puntos fijos en el escenario. Una forma sencilla de verificar si la secuencia de imágenes presenta movimiento es colocar el cursor sobre un elemento fijo en el terreno, como un CP. Luego, sin mover el cursor, recorre visualmente todas las imágenes. Si en algún momento el cursor deja de coincidir con la posición del elemento fijo, significa que hay movimiento en la secuencia y es necesario corregirlo ([Figura 41](#fig41)).
+**Corrección de movimiento:** Si durante la grabación hubo movimientos no intencionales de la cámara, es importante estabilizar las imágenes antes de continuar. Muchos softwares de procesamiento ofrecen herramientas automáticas para corregir estos movimientos, alineando las imágenes en base a puntos fijos en el escenario. Una forma sencilla de verificar si la secuencia de imágenes presenta movimiento es colocar el cursor sobre un elemento fijo en el terreno, como un CP. Luego, sin mover el cursor, recorre visualmente todas las imágenes. Si en algún momento el cursor deja de coincidir con la posición del elemento fijo, significa que hay movimiento en la secuencia y es necesario corregirlo ([Figura 41](#fig41)).
 
 Revise la documentación del software que está utilizando para conocer cómo ejecutar el proceso de corrección de movimiento. Es fundamental que en las imágenes se identifiquen elementos estáticos, como las márgenes del río, y que no haya movimientos en esas áreas (por ejemplo, vegetación movida por el viento). Asegúrese de que después de la corrección, los CPs permanezcan visibles y correctamente posicionados en cada imagen.
 
@@ -1198,7 +1193,7 @@ Revise la documentación del software que está utilizando para conocer cómo ej
 <p align="center">Figura 41: Corrección de movimiento de cámara en secuencia de imágenes extraídas de un video. Arriba: Secuencia de imágenes con movimiento de cámara. Abajo: Secuencia de imágenes con movimiento corregido. <em>Fuente:</em> Elaboración propia</p>
 
 
-**Corrección de distorsión por lente**: Algunas lentes de cámaras, en especial la gran angular o aquellas con efecto 'ojo de pez', pueden introducir distorsiones geométricas en las imágenes, deformando el campo de visión. Si estas distorsiones son significativas, deben corregirse antes de continuar con el procesamiento. Un método sencillo para identificar visualmente si existen distorsiones por lente es observar si hay elementos que deberían ser rectos y se ven curvados, especialmente cerca de los bordes de las imágenes ([Figura 42](#fig42)).
+**Corrección de distorsión por lente:** Algunas lentes de cámaras, en especial la gran angular o aquellas con efecto 'ojo de pez', pueden introducir distorsiones geométricas en las imágenes, deformando el campo de visión. Si estas distorsiones son significativas, deben corregirse antes de continuar con el procesamiento. Un método sencillo para identificar visualmente si existen distorsiones por lente es observar si hay elementos que deberían ser rectos y se ven curvados, especialmente cerca de los bordes de las imágenes ([Figura 42](#fig42)).
 
 Generalmente, los softwares de LSPIV incluyen opciones para aplicar modelos de corrección de lente, basados en la información técnica de la cámara utilizada. En algunos casos, puede ser necesario ingresar manualmente los parámetros de la lente (como la distancia focal, tipo de lente, etc.) para obtener mejores resultados. Si es necesario aplicar esta corrección, consulte el manual del software que está utilizando y/o el [Anexo 1](#An1) para obtener más información.
 
@@ -1211,11 +1206,9 @@ Generalmente, los softwares de LSPIV incluyen opciones para aplicar modelos de c
 
 ### 3.3.4 Rectificación: transformación de pixel a unidades de longitud
 
-
 En este paso, se transforma la geometría de las imágenes para convertir las distancias de píxeles a unidades de longitud (por ejemplo, metros). Existen algunos softwares que realizan la rectificación directamente sobre las imágenes antes de procesarlas, mientras que otros aplican esta corrección sobre los resultados de los campos de velocidad superficial. En ambos casos, el procedimiento es el mismo. A continuación, se detallará el proceso para rectificación según el modo de grabación del video, para mayor información recurrir al [Anexo 3](#An3).
 
 #### 3.3.4.1 Grabación perpendicular: Rectificación 1D
-
 
 Para llevar a cabo una rectificación 1D, se necesitan dos CPs visibles en la imagen. Estos puntos deben corresponder a elementos fijos en el terreno, cuya distancia real entre ellos sea conocida. Para rectificar se necesita ([Figura 43](#fig43)):
 
@@ -1253,7 +1246,6 @@ Para llevar a cabo una rectificación 2D, se necesitan cuatro CPs visibles en la
 <p align="center">Figura 44: Ubicación de CPs en rectificación 2D. <em>Fuente:</em> Elaboración propia</p>
 
 
-
 > <p align="center"> ⚠️ <strong>Control de Error</strong> ⚠️ </p>  
 > 
 > *Verifique que la imagen rectificada se visualice desde una perspectiva perpendicular. Aunque los bordes pueden mostrar deformaciones, el área de interés debe visualizarse correctamente. Si la imagen está muy distorsionada, podría haber un error en la ubicación de los CPs o en las distancias ingresadas.* 
@@ -1264,7 +1256,6 @@ Para llevar a cabo una rectificación 2D, se necesitan cuatro CPs visibles en la
 >  
 
 #### 3.3.4.3 Estación fija: Rectificación 3D
-
 
 Para llevar a cabo una rectificación 3D, se necesitan seis CPs distribuidos homogéneamente en toda el área de interés a diferentes alturas, y que sean visibles en la imagen. Para rectificar se necesita ([Figura 45](#fig45)):
 
@@ -1300,7 +1291,6 @@ Si las coordenadas en píxeles deben ser ingresadas a través de un archivo, se 
 ### 3.3.5 Definición de secciones transversales
 
 
-
 Este paso consiste en definir las secciones transversales sobre las cuales se estimará el caudal ([Figura 46](#fig46)). Las secciones deben estar ubicadas de manera precisa en la imagen para asegurar una correcta medición de las velocidades y posterior cálculo de caudal. Este proceso puede llevarse a cabo de dos formas:
 
 **Definición manual**: En este método, las secciones transversales se ubican manualmente haciendo ‘clics’ sobre la imagen. Para mayor precisión en la ubicación de los puntos, es conveniente utilizar la herramienta de zoom, si está disponible. Se recomienda comenzar con el primer punto en la margen izquierda del cauce y luego ubicar el segundo punto en la margen derecha. Este orden facilita el seguimiento y la organización de las secciones a lo largo del cauce.
@@ -1322,8 +1312,6 @@ Este paso consiste en definir las secciones transversales sobre las cuales se es
 > 
 
 ### 3.3.6 Procesamiento: Aplicación de algoritmo de PIV
-
-
 
 En esta etapa, el objetivo principal es calcular los campos de velocidad en la superficie del agua mediante la técnica de Velocimetría por Imágenes de Partículas (PIV). Este proceso involucra varios pasos, donde se definen áreas de análisis, se optimizan las imágenes y se aplican algoritmos especializados para estimar los vectores de velocidad superficial. A lo largo de esta secuencia, es fundamental realizar controles de calidad que garanticen la precisión y minimicen los errores, asegurando un campo fiable de las velocidades superficiales de flujo. Cabe señalar que las etapas descritas a continuación pueden presentar algunas variaciones según el software utilizado. Por ello, se recomienda revisar la documentación específica de cada herramienta para asegurar una correcta aplicación del método. El flujo de trabajo general incluye (para mayor información recurrir al [Anexo 2](#An2)):
 
@@ -1399,7 +1387,6 @@ Existen también filtros especializados cuando se utilizan trazadores artificial
 
 ### 3.3.7 Estimación de caudal
 
-
 El paso final en el flujo de trabajo del procesamiento LSPIV es la estimación del caudal a partir de los campos de velocidad superficial obtenidos. Este proceso implica la integración de los datos de velocidad con la batimetría de la sección transversal seleccionada y la aplicación de un factor de corrección de velocidad para obtener la velocidad media en profundidad. A continuación, se describen los pasos para la estimación del caudal.
 
 **Perfil de velocidades por sección:** Se obtiene el perfil de velocidades superficiales en cada sección transversal a partir del campo medio de velocidad superficial. Es importante revisar estos perfiles para identificar posibles valores anómalos o inesperados que puedan ser eliminados si el software lo permite.
@@ -1464,7 +1451,7 @@ Tauro, F., Petroselli, A., Porfiri, M., Giandomenico, L., Bernardi, G., Mele, F.
 
 **Software:**
 
-Le Coz, J., Jodeau, M., Marchand, B., & Le Boursicaud, R. (2014). Image-based velocity and discharge measurements in field and laboratory river engineering studies using the free FUDAA-LSPIV software. *River Flow*, 7. <https://doi.org/hal-02600735>  
+Le Coz, J., Jodeau, M., Marchand, B., & Le Boursicaud, R. (2014). Image-based velocity and discharge measurements in field and laboratory river engineering studies using the free FUDAA-LSPIV software. *River Flow*, 7.  
 
 Patalano, A., García, C. M., & Rodríguez, A. (2017). Rectification of image velocity results (RIVeR): A simple and user-friendly toolbox for large scale water surface particle image velocimetry (PIV) and particle tracking velocimetry (PTV). *Computers and Geosciences, 109*(June), 323–330. <https://doi.org/10.1016/j.cageo.2017.07.009>  
 
@@ -1639,13 +1626,13 @@ Con los datos de emparejamiento, se procede a calcular las correcciones necesari
 
 La transformación geométrica general que se utiliza en la estabilización de imágenes es una transformación proyectiva (se recomienda lectura del [Anexo 3](#An3)). Consiste en una transformación planar lineal que puede expresarse como:
 
-
 <a id="e11"></a>  
 <p align="center">
   <img src="./img/e11.png">
 </p>  
 
 o en su forma matricial:
+
 <a id="e12"></a>  
 <p align="center">
   <img src="./img/e12.png">
@@ -1692,11 +1679,9 @@ Se logra una mayor precisión en la transformación estimada cuando mayor es el 
 </p>  
 <p align="center">Figura A.1.6: Resultado de aplicar transformación de similaridad. Izq.: Imagen original. Der.: Imagen transformada. <em>Fuente:</em> Elaboración propia</p>  
 
-
 Finalmente, la corrección del movimiento se realiza para cada par de imágenes analizado, realizando la detección de features y extracción de descriptores en cada una de ellas, el emparejamiento de features, la estimación de la matriz de transformación y la posterior corrección de la imagen. Es importante señalar que la calidad del resultado depende de la precisión en cada una de las etapas. Por ejemplo, un emparejamiento incorrecto puede llevar a transformaciones erróneas, mientras que una máscara mal definida puede introducir ruido en el proceso.
 
 La estabilización también puede incluir un paso adicional de suavizado, donde los pequeños errores acumulados entre fotogramas consecutivos se distribuyen de manera uniforme a lo largo del video, eliminando oscilaciones residuales. Este paso garantiza un movimiento más fluido y natural en la secuencia estabilizada. En la [Figura A.1.7](#figA17) se muestra un ejemplo de estabilización de una secuencia de imágenes, en donde cada imagen se estabilizó tomando como referencia a la primera.
-
 
 <a id="figA17"></a>  
 <p align="center">
@@ -1834,7 +1819,6 @@ También existen método de ecualización de histograma, en donde se modifica la
 
 En la [Figura A.1.11](#figA111) se muestran ejemplos de aplicación de filtros de mejora de contraste.
 
-
 <a id="figA111"></a>  
 <p align="center">
   <img src="./img/figA111.png">
@@ -1855,7 +1839,6 @@ En la [Figura A.1.11](#figA111) se muestran ejemplos de aplicación de filtros d
 **Sustracción de Fondo (Background subtraction/removal):** La sustracción de fondo es una técnica que permite eliminar elementos estáticos y no relevantes en una escena, como el lecho del río o vegetación inmóvil, que pueden interferir con la detección de desplazamientos en los trazadores superficiales. Este método es particularmente importante en contextos donde el fondo de la imagen (por ejemplo en casos donde se visualiza el lecho del cauce por transparencia del flujo) domina visualmente sobre los trazadores, introduciendo errores de sesgo hacia desplazamientos nulos o dificultando la identificación de patrones de movimiento.
 
 Una forma sencilla de implementar este filtro es restar a cada imagen la imagen promedio de la secuencia de imágenes a utilizar ([Figura A.1.13](#figA113)). De esta forma se reduce el ruido y todo lo que permanece estancado en la imagen se supone que es una fuente de sesgo se elimina (Honkanen y Nobach 2005). Al igual que la binarización, puede resultar especialmente útil en casos imágenes de flujos con trazadores artificiales.
-
 
 <a id="figA113"></a>  
 <p align="center">
@@ -1910,7 +1893,6 @@ Un aspecto crucial en la técnica de PIV es la hipótesis fundamental de que las
 <p align="center">Figura A.2.1: Disposición típica de instrumental para la aplicación de velocimetría por imágenes en laboratorio.  A) Flujo B) Cámara C) Lente semi-cilíndrica D) Láser. <em>Fuente:</em> Elaboración propia</p> 
 
 
-
 En su forma más sencilla, la técnica de PIV permite obtener dos componentes del campo instantáneo de velocidades en un plano del fluido. Para realizar este cálculo, se requiere capturar al menos dos imágenes de las partículas trazadoras en un intervalo de tiempo conocido, con niveles de iluminación suficientemente altos en la región de estudio para asegurar la visibilidad de las partículas.
 
 El procesamiento de las imágenes sigue una serie de pasos bien definidos:
@@ -1925,7 +1907,6 @@ El procesamiento de las imágenes sigue una serie de pasos bien definidos:
 <p align="center">Figura A.2.2: Esquema de subdivisión de imagen en ventanas de interrogación.  <em>Fuente:</em> Elaboración propia</p> 
 
 
-
 2.  **Búsqueda del patrón en la imagen sucesiva:** Para cada ventana de interrogación en una imagen, se busca la posición correspondiente del patrón de partículas en la siguiente imagen de la secuencia. Dado que el tiempo entre imágenes consecutivas es corto, se asume que el patrón no habrá cambiado de posición significativamente. La búsqueda se realiza dentro de una región de búsqueda (VB) en la imagen siguiente, que puede ser del mismo tamaño que la IA o mayor ([Figura A.2.3](#figA23)).
 
 <a id="figA23"></a>  
@@ -1937,6 +1918,7 @@ El procesamiento de las imágenes sigue una serie de pasos bien definidos:
 
 3.  **Aplicación de correlación cruzada:** Una vez definida la región de búsqueda, se aplica una correlación cruzada entre la ventana de interrogación y la región de búsqueda para identificar el desplazamiento del patrón de partículas. El resultado de esta operación es un plano de correlación, donde el pico de mayor valor indica la posición del patrón en la imagen siguiente. Este desplazamiento es el que se asocia con el flujo promedio en la ventana de interrogación. Esto se abordará en detalle en las próximas secciones.
 4.  **Cálculo del campo de desplazamientos:** Este procedimiento se repite para todas las ventanas de interrogación en la imagen, generando un campo completo de desplazamientos. Dado que el intervalo temporal entre imágenes es conocido, el campo de velocidades puede calcularse dividiendo los desplazamientos obtenidos entre dicho intervalo.
+
 <a id="e21"></a>  
 <p align="center">
   <img src="./img/e21.png">
@@ -2001,7 +1983,6 @@ Para abordar desplazamientos no lineales de las partículas, que pueden provocar
 <p align="center">Figura A.2.7: Principio de la técnica de deformación de ventana. Izq.: Resultado del primer análisis; Der.: Ventana deformada.  <em>Fuente:</em> Thielicke & Stamhuis (2014)</p> 
 
 
-
 ## 2.2 Estimación Sub-pixel
 
 El desplazamiento entero entre dos ventanas de interrogación se puede determinar directamente localizando el pico en la matriz de correlación. Sin embargo, para mejorar la precisión de la estimación, es común aplicar un ajuste que permita detectar el desplazamiento con resolución sub-píxel.
@@ -2019,7 +2000,6 @@ El uso de este ajuste permite determinar la posición de las partículas con una
 <p align="center">Figura A.2.8: Principio del ajuste "Gaussian 2.3-point fit”: La precisión sub-pixel se logra ajustando un función Gaussiana unidireccional (línea continua) a la distribución entera de la intensidad que viene de la matriz de correlación (puntos). Solamente se muestra un eje.  <em>Fuente:</em> Elaboración propia</p> 
 
 
-
 ## 2.3 Filtros de post-procesamiento
 
 El post-procesamiento de los datos obtenidos puede ayudar a aumentar confiabilidad de los resultados. Este proceso incluye métodos de detección de datos inválidos (outliers), su remoción y posible corrección, así como técnicas para suavizar los campos de velocidades y reducir el ruido en las mediciones.
@@ -2029,9 +2009,7 @@ Los métodos de detección de outliers son muchos, y su aplicabilidad y eficienc
 1.  **Filtrado por valores límites de velocidad:** Este método básico define límites mínimos y máximos de velocidad, ya sea para cada componente de la velocidad o para la magnitud total. Los umbrales pueden ser definidos de forma subjetiva, requiriendo un conocimiento previo de las velocidades esperadas, o mediante parámetros estadísticos, como la media y la desviación estándar. Por ejemplo, se puede aplicar un filtro basado en la media de la velocidad más una cantidad definida de desviaciones estándar, eliminando los datos fuera de estos límites.
 2.  **Filtrado por análisis de vecinos:** En este método, se evalúa la coherencia de un vector de velocidad comparándolo con sus vecinos más cercanos en la cuadrícula. Se pueden analizar características como la magnitud o la dirección del vector, eliminando aquellos valores que difieren significativamente de sus vecinos. Este enfoque es particularmente útil porque se adapta a las condiciones locales del flujo, proporcionando una detección robusta de outliers en situaciones complejas. Un ejemplo es el test de mediana normalizada (Westerweel & Scarano, 2005) que evalúa la fluctuación de la velocidad con respecto a la mediana dentro de una vecindad 3x3 de vectores.
 3.  **Filtrado por calidad de correlación:** Parámetros de calidad de correlación cruzada se pueden utilizar como indicadores de la confiabilidad de los resultados. Uno de estos parámetros es el coeficiente de correlación normalizado (NCC, por sus siglas en inglés), que surge de la normalización de la (Ec. 2.2). Este coeficiente toma valores entre 0 y 1, siendo 0 la ausencia total de correlación y 1 la correlación perfecta. Su utilización consiste en definir un rango de valores aceptables de NCC, es usual tomar valores entre 0.5-0.98 aproximadamente. NCC es ampliamente implementado debido a su utilidad como indicador general de calidad (Lewis, 1995). Sin embargo, existen desafíos asociados a la definición precisa de estos umbrales, y su interpretación puede ser compleja en flujos naturales donde la rugosidad superficial o los artefactos en las imágenes pueden afectar la correlación sin reflejar directamente la calidad de los desplazamientos estimados.
-
-    También es común el uso de otros parámetros de calidad del plano de correlación (Keane & Adrian, 1992), como la relación entre el pico y el valor medio del plano de correlación (‘peak to mean correlation ratio’, PMCR) o la relación entre el primer y segundo pico máximo (‘peak to peak correlation ratio’, PPCR), entre otros.
-
+También es común el uso de otros parámetros de calidad del plano de correlación (Keane & Adrian, 1992), como la relación entre el pico y el valor medio del plano de correlación (‘peak to mean correlation ratio’, PMCR) o la relación entre el primer y segundo pico máximo (‘peak to peak correlation ratio’, PPCR), entre otros.
 4.  **Interpolación y relleno de datos faltantes:** Una vez detectados y eliminados los outliers, es necesario reemplazar estos datos para mantener la continuidad espacial en el campo de velocidades. Existen diversas técnicas de interpolación, como las interpolaciones con los vecinos más cercanos o métodos más sofisticados como las interpolaciones bidimensionales por spline (Stamhuis & Videler, 1995). Estos métodos permiten reconstruir el campo de velocidades de manera eficiente, reduciendo la influencia de los outliers eliminados.
 5.  **Suavizado y reducción de ruido:** Para minimizar el ruido en las mediciones de velocidad, es común aplicar métodos de suavizado. Uno de los más utilizados es el filtro de media móvil (Raffel et al., 2007), que permite suavizar las fluctuaciones no deseadas manteniendo las características generales del flujo. Alternativamente, se pueden aplicar convoluciones u otros métodos basados en la media, dependiendo de las necesidades específicas del análisis.
 
@@ -2117,14 +2095,12 @@ En la ecuación [(3.5)](#e35) intervienen dos tipos de parámetros, conformando 
 Con <b>H</b> y <b>W</b> la altura y el ancho del sensor en píxeles; <b>x<sub>c</sub></b>, <b>y<sub>c</sub></b> y <b>z<sub>c</sub></b> las coordenadas del centro de la cámara. <em>Fuente:</em> Elaboración propia</p> 
 
 
-
 La matriz cámara $\mathbf{C}$ es una matriz compleja difícil de solucionar y que contiene parámetros desconocidos. Su resolución se puede realizar a través de un proceso de calibración. La relación entre las coordenadas homogéneas del mundo real y las coordenadas homogéneas proyectadas sobre el sensor de la cámara se puede escribir de la manera siguiente:
 
 <a id="e36"></a>  
 <p align="center">
   <img src="./img/e36.png">
 </p>  
-
 
 con:
 
@@ -2347,7 +2323,6 @@ Los trazadores naturales son características o elementos que ya están presente
 <p align="center">Figura A.4.4: Ejemplo de placas de hielo en superficie como trazador superficial natural. <em>Fuente:</em> Imágenes proporcionadas por National Hydrological Service of Environment and Climate Change Canada</p> 
 
 
-
 En condiciones ideales, los trazadores naturales presentes en flujos turbulentos o de alta velocidad pueden ser suficientes para realizar un análisis exitoso mediante LSPIV. Los trazadores naturales deben cumplir con una **distribución espacial y temporal homogénea**. Puede ocurrir que exista presencia de trazadores adecuados solo en un sector del cauce, o que su paso por el área de medición sea intermitente. En la [Figura A.4.5](#figA45) se muestra un ejemplo en donde en la mitad del ancho del cauce se observa trazadores naturales por undulación de la superficie del agua, y en la mitad restante se observa una textura lisa (no deseada) de la superficie. Situaciones de heterogeneidad espacio-temporal de presencia de trazadores se recomiendan ser evitadas, ya que pueden alterar los resultados y demandar mayores esfuerzos durante el procesamiento de las imágenes.
 
 <a id="figA45"></a>  
@@ -2393,8 +2368,6 @@ El término "sembrado" se refiere al acto de dispersar trazadores artificiales s
 </p>  
 <p align="center">Figura A.4.7: Distribuciones de trazadores artificiales en área de medición. A) ‘Grupos’ de trazadores, con grandes espacios sin sembrado (condición NO deseada). B) Parte del ancho del cauce no presenta trazadores (condición NO deseada). C) Distribución homogénea sobre toda el área de medición (condición deseada). <em>Fuente:</em> Elaboración propia</p> 
 
-
-
 El proceso de sembrado debe realizarse siempre desde aguas arriba de la zona de medición para garantizar que los trazadores lleguen al área de interés de forma ordenada. Durante el sembrado, es esencial que no se acumulen trazadores en zonas específicas debido a obstáculos en el cauce, ya que esto podría alterar la distribución deseada. Asimismo, se debe evitar que los obstáculos en el cauce generen estelas sin trazadores.
 
 El sembrado puede ser realizado por operadores situados en las márgenes del cauce, dentro del mismo cauce o desde estructuras que crucen el cauce, como puentes ([Figura A.4.8](#figA48)). En función del ancho del cauce, puede ser necesario que varias personas siembren los trazadores simultáneamente. Se recomienda que cada operador tenga consigo el volumen adecuado de trazadores para la zona que se le ha asignado, evitando la necesidad de desplazarse innecesariamente. Es importante que los operadores dentro del agua se tengan movimientos mínimos y lentos durante la grabación para evitar la perturbación de la superficie libre del flujo, lo que podría generar estelas u ondas que afecten la calidad del sembrado.
@@ -2404,7 +2377,6 @@ El sembrado puede ser realizado por operadores situados en las márgenes del cau
   <img src="./img/figA48.png">
 </p>  
 <p align="center">Figura A.4.8: Ejemplos de formas de sembrado. A) Desde las márgenes del cauce. B) Desde dentro del cauce. C) Desde una estructura (puente) que cruza el cauce. <em>Fuente:</em> Elaboración propia</p> 
-
 
 
 Además, se debe tener especial cuidado de no obstruir la grabación con el propio cuerpo ni con objetos mientras se siembran los trazadores. Por ejemplo, si una cámara está grabando, y un operador siembra cerca de ella, debe evitar que su brazo o los mismos trazadores en el aire obstruyan el área del flujo que se está midiendo, ya que esto afectaría la visibilidad de la zona de medición ([Figura A.4.9](#figA49)). Además, cuando las condiciones de viento son fuertes, es importante considerar su impacto durante el sembrado. El viento puede afectar el proceso de sembrado, provocando la dispersión de los trazadores en el aire y que se desplacen en direcciones no deseadas.
@@ -2800,9 +2772,9 @@ Tabla A.6.1: Estimación de α en función de la rugosidad del sitio y los expon
 
 |                     | Normal      | Suave | Rugoso | Muy rugoso | Casos Extremos |
 |:-------------------:|:-----------:|:-----:|:------:|:----------:|:--------------:|
-| $ \mathbf{m} $      | 6-7         | 10    | 4      | 2-3        |                |
-| $ \mathbf{M} $      | 0.143-0.167 | 0.1   | 0.25   | 0.333-0.5  |                |
-| $ \mathbf{\alpha} $ | 0.86-0.87   | 0.91  | 0.8    | 0.67-0.75  | 0.6-1.2        |
+| $m$      | 6-7         | 10    | 4      | 2-3        |                |
+| $M$      | 0.143-0.167 | 0.1   | 0.25   | 0.333-0.5  |                |
+| ${\alpha}$ | 0.86-0.87   | 0.91  | 0.8    | 0.67-0.75  | 0.6-1.2        |
 
 *Fuente:* Biggs et al. (2021)
 
@@ -2938,7 +2910,7 @@ Litvin, A., Konrad, J., & Karl, W. C. (2003). Probabilistic video stabilization 
 
 Matas, J., Chum, O., Urba, M., & Pajdla, T. (2002). Robust wide-baseline stereo from maximally stable extremal regions. *Proceedings of British Machine Vision Conference*, 384–396.  
 
-Meselhe, E. A., Peeva, T., & Muste, M. (2004). Large scale particle image velocimetry for low velocity and shallow water flows. <https://doi.org/10.1061/ASCE0733-94292004130:9937>  
+Meselhe, E. A., Peeva, T., & Muste, M. (2004). Large scale particle image velocimetry for low velocity and shallow water flows. *Journal of Hydraulic Engineering*. <https://doi.org/10.1061/(ASCE)0733-9429(2004)130:9(937)>  
 
 Moisan, L., & Stival, B. A. (2004). A probabilistic criterion to detect rigid point matches between two images and estimate the fundamental matrix. *International Journal of Computer Vision, 57*(3), 201-208.  
 
