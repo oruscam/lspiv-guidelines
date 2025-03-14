@@ -223,9 +223,9 @@ A key aspect of LSPIV, related to camera positioning, is the need to convert pix
 <p align="center">Figure 5: Schematic representation of camera viewing angles. The red-framed image on the right represents the perpendicular view, while the gray-toned image on the left represents the oblique view. <em>Source:</em> Own elaboration</p>
 
 
-- <u>Perpendicular view</u>: The camera is positioned perpendicular to the flow surface, looking downward. All pixels in the measurement area represent the same real-world distance, as there is no perspective distortion, assuming minimal lens distortion. The conversion from pixels to length units can be performed if a known real-world distance is present in the image. For example, if the image contains a clearly visible dimension (such as the width of a cross-section), the relationship between pixels and length units can be established. This process is known as 1D rectification.
+- *Perpendicular view*: The camera is positioned perpendicular to the flow surface, looking downward. All pixels in the measurement area represent the same real-world distance, as there is no perspective distortion, assuming minimal lens distortion. The conversion from pixels to length units can be performed if a known real-world distance is present in the image. For example, if the image contains a clearly visible dimension (such as the width of a cross-section), the relationship between pixels and length units can be established. This process is known as 1D rectification.
 
-- <u>Oblique View</u>: If a perpendicular camera position cannot be achieved, the images will exhibit perspective distortion. In an oblique view, perspective causes parallel lines in reality to appear non-parallel in the image, and distances that are identical in reality to have different pixel lengths in the image. For this reason, it is not valid to define a single constant value for pixel-to-length conversion. Rectification in this case involves correcting the perspective distortion in the image to align it with the real-world dimensions of the terrain. To perform this process, it is necessary to know some real-world distances or coordinates of visible points in the image, such as the dimensions of structures or fixed points in the area. These points are referred to as Control Points (CPs) in this guide, although in the literature they may also be found as Ground Reference Points (GRPs) or Ground Control Points (GCPs). For oblique views, there are two transformation methods: 2D rectification, which corrects a single plane using four CPs (in LSPIV, this is the free surface of the flow), or 3D rectification, which requires at least six CPs and allows for the rectification of planes at different elevations, making it useful in conditions where the free surface level varies. [Figure 6](#fig6) shows an example of 2D rectification, where a perspective-distorted image is transformed into one that appears as if it were captured from a perpendicular position.
+- *Oblique View*: If a perpendicular camera position cannot be achieved, the images will exhibit perspective distortion. In an oblique view, perspective causes parallel lines in reality to appear non-parallel in the image, and distances that are identical in reality to have different pixel lengths in the image. For this reason, it is not valid to define a single constant value for pixel-to-length conversion. Rectification in this case involves correcting the perspective distortion in the image to align it with the real-world dimensions of the terrain. To perform this process, it is necessary to know some real-world distances or coordinates of visible points in the image, such as the dimensions of structures or fixed points in the area. These points are referred to as Control Points (CPs) in this guide, although in the literature they may also be found as Ground Reference Points (GRPs) or Ground Control Points (GCPs). For oblique views, there are two transformation methods: 2D rectification, which corrects a single plane using four CPs (in LSPIV, this is the free surface of the flow), or 3D rectification, which requires at least six CPs and allows for the rectification of planes at different elevations, making it useful in conditions where the free surface level varies. [Figure 6](#fig6) shows an example of 2D rectification, where a perspective-distorted image is transformed into one that appears as if it were captured from a perpendicular position.
 
 
 <a id="fig6"></a>  
@@ -243,7 +243,7 @@ Besides the camera position, it is necessary to ensure that the camera remains s
 
 **Surface Tracers:** Among the three elements required for LSPIV implementation, tracers are critical. In the context of LSPIV, a tracer refers to any visible element that moves with the free surface of the water, which can be natural or artificial.
 
-1.  <u>Natural tracers:</u> These are patterns naturally present on the free surface of the flow. These can include foam, debris carried by the flow, ice, or even ripples generated by the flow's own turbulence ([Figure 7](#fig7)).
+1.  *Natural tracers:* These are patterns naturally present on the free surface of the flow. These can include foam, debris carried by the flow, ice, or even ripples generated by the flow's own turbulence ([Figure 7](#fig7)).
 
 
 <a id="fig7"></a>  
@@ -254,7 +254,7 @@ Besides the camera position, it is necessary to ensure that the camera remains s
 
 
 
-2.  <u>Artificial tracers:</u> These are biodegradable floating materials that are seeded intentionally onto the free surface of the flow, such as vegetation debris, wood chips, among others. Their use is recommended when the flow does not exhibit visible natural tracers. This suboptimal condition may occur due to one or a combination of the following: low-flow conditions, very low-velocity flows, transparent flows where the riverbed is visible, areas affected by backwater effects, or low-turbulence flows. The tracers are released into the flow upstream of the measurement area, and the patterns they form are used to apply the technique ([Figure 8](#fig8)).
+2.  *Artificial tracers:* These are biodegradable floating materials that are seeded intentionally onto the free surface of the flow, such as vegetation debris, wood chips, among others. Their use is recommended when the flow does not exhibit visible natural tracers. This suboptimal condition may occur due to one or a combination of the following: low-flow conditions, very low-velocity flows, transparent flows where the riverbed is visible, areas affected by backwater effects, or low-turbulence flows. The tracers are released into the flow upstream of the measurement area, and the patterns they form are used to apply the technique ([Figure 8](#fig8)).
 
 <a id="fig8"></a>  
 <p align="center">
@@ -297,8 +297,6 @@ LSPIV has become established as a reliable and cost-effective technique for meas
 
 ## 1.3 Advantages, disadvantages, and common questions
 
-
-
 Below are the advantages and disadvantages of the LSPIV technique, as well as some practical limitations that may affect its implementation. These points provide a general overview of the strengths and challenges of the technique and help to better understand its applications and field constraints.
 
 **Advantages:**
@@ -330,8 +328,11 @@ Below are the advantages and disadvantages of the LSPIV technique, as well as so
 
 **What types of flows can be measured?** LSPIV can be applied to measure the flow of any free-surface fluid, such as rivers, canals, hydraulic infrastructure flows, and even laboratory-scale experimental flows. The technique works best in flows with visible natural tracers, such as foam, bubbles, or turbulent structures. However, in the absence of natural tracers, artificial tracers can be seeded to ensure an appropriate surface texture for analysis. It is essential that the tracers, whether natural or artificial, accurately represent the movement of the surface of the fluid to obtain accurate measurements.
 In highly turbulent flows, such as areas near hydraulic jumps, there are usually a large number of natural tracers on the surface, facilitating the application of LSPIV to estimate surface velocity with high resolution. However, due to intense flow fluctuations, the conversion from surface velocity to depth-averaged velocity may have higher uncertainty. In these cases, the technique must be carefully evaluated, as variations in the velocity distribution across the water column can affect the accuracy of discharge calculations.  
+
 **Are there limitations regarding the size of the watercourses that can be measured?** The size of the watercourse can influence the application of LSPIV, mainly in terms of tracer visibility and image resolution. The essential requirement is that the video captures the entire width of the flow and that the surface tracers are clearly visible. In wider rivers, it may be necessary to record from a greater height, which could reduce resolution in distant areas, potentially affecting velocity estimation accuracy. However, when the fundamental conditions for LSPIV are met, the technique can also be applied successfully using satellite imagery for significantly wide rivers.  
+
 **Is a special camera required for video recording?** No, any device capable of recording video or image sequences can be used. It is recommended that the camera have a resolution of at least Full HD (1080p) at 24 frames per second. Most modern cameras, including smartphones, have specifications well above these requirements. The technique can be applied using mobile devices, digital cameras, UAV cameras, surveillance cameras, and others.  
+
 **What is the uncertainty of the technique in discharge measurements?** There is currently no standardized method for calculating LSPIV uncertainty due to the many variables involved in measurement. However, under optimal conditions, the uncertainty is comparable to other discharge measurement techniques, such as hydroacoustic methods. In general, LSPIV is associated with an uncertainty range of approximately 10–15%, primarily due to the difficulty in determining the alpha coefficient. However, under favorable conditions, if the relationship between surface velocity ($V_{s}$) and depth-averaged velocity ($V_{m}$) is well established, this uncertainty can be reduced, achieving values similar to those obtained with acoustic instruments. In less favorable conditions, uncertainty can increase significantly. The quantification and reduction of uncertainty in LSPIV is currently an active research field, with various groups working on more robust methodologies for uncertainty estimation.
 
 ## 1.4 Guide organization
@@ -421,7 +422,7 @@ Preferred:
 2.  Sites that allow for easy camera positioning in a perpendicular view.
 3.  Accessible areas for bathymetric surveys (see Section [2.2](#22-bathymetric-survey)) and for marking and surveying CPs.
 
-<u>To avoid:</u>
+*To avoid:*
 
 4.  Reaches with flow obstructions in the surrounding area.
 5.  Reaches with hydraulic jumps or highly turbulent zones.
@@ -435,7 +436,7 @@ Preferred:
 <p align="center">Figure 13: Schematic examples of site selection for perpendicular recording. (A) Recirculation zone. (B) Reach with obstacles. (C) Highly turbulent reach. (D) Straight and uniform reach. <em>Source:</em> Own elaboration</p>
 
 
-<u>Related to tracers and meteorological conditions ([Figure 14](#fig14) and [Figure 15](#fig15)):</u>
+*Related to tracers and meteorological conditions ([Figure 14](#fig14) and [Figure 15](#fig15)):*
 
 1.  Ensure that surface tracers are evenly distributed across the entire channel width and remain visible throughout the recording.
 2.  Avoid measurements under wind conditions that could affect the natural movement of surface tracers. This is particularly important in low-flow conditions.
@@ -458,7 +459,7 @@ Preferred:
 <p align="center">Figure 15: Schematic examples of artificial tracer distribution in perpendicular recording. (A and B) Heterogeneous distribution. (C) Homogeneous distribution. <em>Source:</em> Own elaboration</p>
 
 
-<u>Related to the cross-section (XS):</u>
+*Related to the cross-section (XS):*
 
 1.  Define at least one cross-section for study, although multiple sections can be defined to improve discharge estimation by averaging the values obtained at each section.
 2.  Prefer sections with regular geometry, avoiding highly irregular profiles or those with large rocks (macro-rough flows).
@@ -526,7 +527,7 @@ Regarding on-site recommendations, the following should be considered:
 
 For 1D rectification in perpendicular recording, two Control Points (CPs) are required. CPs are specific and easily identifiable points in the image, whose position in both the terrain and the image is known. These points must be static and clearly visible throughout the recording. Existing elements in the environment can be used, or temporary markers can be placed. 1D rectification is essentially the same as defining the pixel size in the image, as it establishes the relationship between the real-world terrain dimensions and their representation in the image. The following recommendations should be considered when selecting and using CPs:
 
-<u>Related to CP selection ([Figure 20](#fig20) and [Figure 21](#fig21)):</u>
+*Related to CP selection ([Figure 20](#fig20) and [Figure 21](#fig21)):*
 
 1.  Two CPs must be established, ideally positioned one on each bank of the channel.
 2.  The CPs must be at the same elevation as the water surface.
@@ -561,7 +562,7 @@ For 1D rectification in perpendicular recording, two Control Points (CPs) are re
 7.  The same markers used to define the cross-section location can also be used as CPs
 
 
-<u>Related to CP surveying:</u>
+*Related to CP surveying:*
 
 1.  There are two ways to determine the real-world coordinates of CPs: directly measuring their planimetric coordinates (*x, y*), or measuring the distances between them. The choice between these methods depends on the available equipment and the software requirements for image processing. Most software applications support both approaches.
 2.  If planimetric coordinates (*x, y*) are needed, the CPs should be surveyed using Differential GNSS (Global Navigation Satellite System) or Total Station.
@@ -654,7 +655,7 @@ Before leaving the measurement site, answer the following questions:
 
 Image-based velocimetry techniques are not suitable for all sites, and the selection criteria may differ from those of other methods. Proper site selection is crucial to obtaining reliable results and facilitating both fieldwork and video processing.
 
-<u>Related to the channel reach ([Figure 23](#fig23)):</u>
+*Related to the channel reach ([Figure 23](#fig23)):*
 
 Preferred:
 
@@ -677,7 +678,7 @@ To avoid:
 <p align="center">Figure 23: Schematic examples of site selection for oblique recording. (A) Recirculation zone. (B) Reach with obstacles. (C) Highly turbulent reach. (D) Straight and uniform reach. <em>Source:</em> Own elaboration</p>
 
 
-<u>Related to tracers and meteorological conditions ([Figure 24](#fig24) and [Figure 25](#fig25)):</u>
+*Related to tracers and meteorological conditions ([Figure 24](#fig24) and [Figure 25](#fig25)):*
 
 1.  Ensure that surface tracers are evenly distributed across the entire channel width and remain visible throughout the recording.
 2.  Avoid measurements under wind conditions that could affect the natural movement of surface tracers. This is particularly important in low-flow conditions.
@@ -701,7 +702,7 @@ To avoid:
 
 
 
-<u>Related to the cross-section (XS):</u>
+*Related to the cross-section (XS):*
 
 1.  Define at least one cross-section for study, although multiple sections can be defined to improve discharge estimation by averaging the values obtained at each section.
 2.  Prefer sections with regular geometry, avoiding highly irregular profiles or those with large rocks (macro-rough flows).
@@ -794,7 +795,7 @@ For oblique recording, four Control Points (CPs) are required. CPs are specific 
 
 
 
-<u>Related to CP surveying:</u>
+*Related to CP surveying:*
 
 1.  There are two ways to determine the real-world coordinates of CPs: directly measuring their planimetric coordinates (*x, y*), or measuring the distances between them. The choice between these methods depends on the available equipment and the software requirements for image processing. Most software applications support both approaches.
 2.  If planimetric coordinates are used, all four CPs should be surveyed using Differential GNSS (Global Navigation Satellite System) or Total Station.
@@ -888,7 +889,7 @@ When using Fixed Stations, it is essential to consider that the following recomm
 
 #### 2.1.3.1 Site selection
 
-<u>Related to the selected reach:</u>
+*Related to the selected reach:*
 
 Preferred:
 
@@ -914,7 +915,7 @@ To avoid:
  <em>Source:</em> Own elaboration</p>
 
 
-<u>Related to tracers and meteorological conditions ([Figure 33](#fig33)):</u>
+*Related to tracers and meteorological conditions ([Figure 33](#fig33)):*
 
 1.  Ensure the presence of surface tracers with a homogeneous distribution across the entire channel width within the range of water levels of interest.
 2.  Avoid sites with stationary surface waves that do not move with the flow, such as standing waves.
@@ -928,7 +929,7 @@ To avoid:
 
 
 
-<u>Related to the cross-section (XS):</u>
+*Related to the cross-section (XS):*
 
 1.  Define at least one cross-section for study, although multiple sections can be defined to improve discharge estimation by averaging the values obtained at each section.
 2.  Prefer sections with regular geometry, avoiding highly irregular profiles or those with large rocks (macro-rough flows).
@@ -972,7 +973,7 @@ To perform rectification on videos captured by a Fixed station with a camera mou
 <p align="center">Figure 35: Schematic examples of CP distribution for 3D rectification using a Fixed Station. (A) Inadequate CP distribution. (B) Homogeneous CP distribution across the field of view. <em>Source:</em> Own elaboration</p>
 
 
-<u>Related to CP surveying:</u>
+*Related to CP surveying:*
 
 1.  To obtain spatial coordinates, the accuracy of CP survey data must be ensured, as errors in spatial coordinates can complicate or even prevent the rectification process. It is recommended to use Differential GNSS (Global Navigation Satellite System) or Total Station.
 2.  CP coordinates must include altitude (*z*), and all elevations must be referenced to the same datum. Both water level data and cross-section surveys must use the same datum to ensure consistency in rectification.
@@ -1633,7 +1634,7 @@ where $\mathbf{X}$ and $\mathbf{X '}$ are the position vectors of the matched fe
 
 
 
-1.  <u>Similarity transformation:</u> Preserves shapes (angles and parallelism) and allows uniform scaling, rotation, and translation. The transformation matrix includes a scale factor $s$, a rotation angle $\theta$, and translation $t_{x}$ and $t_{y}$.
+1.  *Similarity transformation:* Preserves shapes (angles and parallelism) and allows uniform scaling, rotation, and translation. The transformation matrix includes a scale factor $s$, a rotation angle $\theta$, and translation $t_{x}$ and $t_{y}$.
 
 <a id="e13"></a>  
 <p align="center">
@@ -1642,7 +1643,7 @@ where $\mathbf{X}$ and $\mathbf{X '}$ are the position vectors of the matched fe
 
 At least two point correspondences are needed to solve the matrix. This transformation is suitable for image sequences with simple, smooth camera movements, such as small vibrations or oscillations.
 
-2.  <u>Affine Transformation:</u> Preserves parallelism and allows variations in angles, rotations, non-uniform scaling, and translations. The transformation matrix is:
+2.  *Affine Transformation:* Preserves parallelism and allows variations in angles, rotations, non-uniform scaling, and translations. The transformation matrix is:
 
 <a id="e14"></a>  
 <p align="center">
@@ -1651,7 +1652,7 @@ At least two point correspondences are needed to solve the matrix. This transfor
 
 The coefficients $a_{i j}$ represent scaling, rotation, and shear deformation. At least three point correspondences are needed to solve the matrix. This transformation is recommended for image sequences with camera movements that include translations, rotations, zoom variations, and/or shear deformations.
 
-3.  <u>Projective Transformation:</u> Does not preserve angles, parallelism, or scale. Allows complex perspective distortions. The transformation matrix is the one given in equation [(1.1)](#e11). At least four point correspondences are required to solve the matrix. This transformation is recommended for image sequences with complex camera movements that involve perspective variations. It is the most sensitive transformation.
+3.  *Projective Transformation:* Does not preserve angles, parallelism, or scale. Allows complex perspective distortions. The transformation matrix is the one given in equation [(1.1)](#e11). At least four point correspondences are required to solve the matrix. This transformation is recommended for image sequences with complex camera movements that involve perspective variations. It is the most sensitive transformation.
 
 Greater accuracy in the estimated transformation is achieved when a larger number of matched features is used to solve the transformation matrix. However, incorrect matches can introduce noise into this process. There are algorithms designed to reduce the influence of these incorrect matches when determining $\mathbf{H}$, such as the RANSAC method (Fischler & Bolles, 1981) and its modifications. Once the transformation matrix is obtained, it is applied to the pixels of the image being transformed to minimize camera motion. [Figure A.1.6](#figA16) shows an example of a similarity transformation applied to the example in [Figure A.1.4](#figA14).
 
@@ -1741,7 +1742,7 @@ $Skew$, is the skew coefficient (negligible in most cases).
 
 ### 1.2.2 Calibration procedure
 
-1.  <u>Image Capture:</u> Multiple images of a calibration pattern, such as a chessboard, must be captured from different angles and positions. It is crucial that the images are taken under the same conditions as those that will be used during processing, including the capture mode (video or photo) and focal length. At least three images are recommended to solve the calibration equations, although a higher number improves accuracy. Reflections and shadows should be avoided, ensuring that the pattern fully covers the camera’s field of view. [Figure A.1.8](#figA18) shows an example of a set of images used for camera calibration.
+1.  *Image Capture:* Multiple images of a calibration pattern, such as a chessboard, must be captured from different angles and positions. It is crucial that the images are taken under the same conditions as those that will be used during processing, including the capture mode (video or photo) and focal length. At least three images are recommended to solve the calibration equations, although a higher number improves accuracy. Reflections and shadows should be avoided, ensuring that the pattern fully covers the camera’s field of view. [Figure A.1.8](#figA18) shows an example of a set of images used for camera calibration.
 
 <a id="figA18"></a>  
 <p align="center">
@@ -1750,14 +1751,14 @@ $Skew$, is the skew coefficient (negligible in most cases).
 <p align="center">Figure A.1.8: Set of images for camera calibration. The images are taken in video mode. The lens distortion is visible in each capture. <em>Source:</em> Own elaboration</p> 
 
 
-2.  <u>Corner detection:</u> Several libraries and specialized software tools are available for camera calibration, such as OpenCV[^1], Matlab[^2], or Agisoft[^3], among others. The software used for calibration will automatically detect the corners of the pattern and calculate the intrinsic parameters and distortion coefficients: $f_{x}$, $f_{y} , \  c_{x} ,$ $c_{y}$, $K_{1}$, $K_{2}$, $K_{3}$, $P_{1}$ $P_{2}$ and $S k e w $.
+2.  *Corner detection:* Several libraries and specialized software tools are available for camera calibration, such as OpenCV[^1], Matlab[^2], or Agisoft[^3], among others. The software used for calibration will automatically detect the corners of the pattern and calculate the intrinsic parameters and distortion coefficients: $f_{x}$, $f_{y} , \  c_{x} ,$ $c_{y}$, $K_{1}$, $K_{2}$, $K_{3}$, $P_{1}$ $P_{2}$ and $S k e w $.
 [^1]: <https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html>
 
 [^2]: <https://la.mathworks.com/help/vision/camera-calibration.html>
 
 [^3]: <https://agisoft.freshdesk.com/support/solutions/articles/31000160059-lens-calibration-using-chessboard-pattern-in-metashape>
 
-3.  <u>Result Evaluation:</u>  The obtained parameters are applied to the images to correct the distortion. [Figure A.1.9](#figA19) presents an example where an original image (a) is corrected to eliminate lens distortions (b).
+3.  *Result Evaluation:*  The obtained parameters are applied to the images to correct the distortion. [Figure A.1.9](#figA19) presents an example where an original image (a) is corrected to eliminate lens distortions (b).
 
 <a id="figA19"></a>  
 <p align="center">
@@ -2264,9 +2265,9 @@ Surface tracers are visually detectable elements (optically or thermally) on the
 
 In general terms, the key aspects to evaluate the presence of favorable conditions for implementing LSPIV include:
 
-1.  <u>Tracer type:</u> The shape, size, and buoyancy of the tracers must ensure that their displacement closely matches the movement of the free water surface. Additionally, they must be easily visible in the images, meaning aspects like color and tonal variations play an important role.
-2.  <u>Tracer distribution:</u> The distribution must be homogeneous in both space and time, meaning the tracers must be present throughout the entire channel width and throughout the entire image sequence. An inadequate distribution, whether spatial or temporal, can significantly affect the results (Detert, 2021; Meselhe et al., 2004).
-3.  <u>Environmental and recording factors:</u> Various environmental factors, such as lighting conditions and wind, can complicate tracer visualization or alter their movement, introducing biases in the results. Additionally, camera position and orientation during recording can negatively impact the quality of the measurement area visualization.
+1.  *Tracer type:* The shape, size, and buoyancy of the tracers must ensure that their displacement closely matches the movement of the free water surface. Additionally, they must be easily visible in the images, meaning aspects like color and tonal variations play an important role.
+2.  *Tracer distribution:* The distribution must be homogeneous in both space and time, meaning the tracers must be present throughout the entire channel width and throughout the entire image sequence. An inadequate distribution, whether spatial or temporal, can significantly affect the results (Detert, 2021; Meselhe et al., 2004).
+3.  *Environmental and recording factors:* Various environmental factors, such as lighting conditions and wind, can complicate tracer visualization or alter their movement, introducing biases in the results. Additionally, camera position and orientation during recording can negatively impact the quality of the measurement area visualization.
 
 The following sections describe the most commonly found or used types of tracers in watercourses, along with recommendations for assessing whether conditions are suitable for implementing LSPIV.
 
@@ -2416,7 +2417,7 @@ Elements such as vegetation, artificial structures (bridges, pillars), or even p
 
 Inadequate lighting can significantly compromise image quality, affecting the accuracy of LSPIV analysis. The most relevant issues include:
 
-1.  <u>Inconsistent lighting:</u> Both spatial and temporal variations in lighting conditions can significantly affect LSPIV results. Spatial variations, such as shadows or transitions between bright and dark areas in the measurement region ([Figure A.4.12](#figA412)), may be interpreted as static patterns during processing, biasing results toward zero velocities in these regions. Temporal variations, such as clouds intermittently covering the sun, can make it difficult to consistently identify tracers throughout the video. Although some of these issues can be partially corrected during image processing, it is always preferable to avoid them during recording to ensure more accurate and reliable results.
+1.  *Inconsistent lighting:* Both spatial and temporal variations in lighting conditions can significantly affect LSPIV results. Spatial variations, such as shadows or transitions between bright and dark areas in the measurement region ([Figure A.4.12](#figA412)), may be interpreted as static patterns during processing, biasing results toward zero velocities in these regions. Temporal variations, such as clouds intermittently covering the sun, can make it difficult to consistently identify tracers throughout the video. Although some of these issues can be partially corrected during image processing, it is always preferable to avoid them during recording to ensure more accurate and reliable results.
 
 <a id="figA412"></a>  
 <p align="center">
@@ -2425,7 +2426,7 @@ Inadequate lighting can significantly compromise image quality, affecting the ac
 <p align="center">Figure A.4.12: Spatial variation in lighting conditions across the flow measurement area. <em>Source:</em> Own elaboration</p> 
 
 
-2.  <u>Sun reflections:</u> Intense glare on the water surface, caused by solar reflections or artificial lighting sources, represents an adverse condition for LSPIV analysis ([Figure A.4.13](#figA413)). These high-intensity bright areas prevent proper visualization of surface tracers. If these reflections are processed, they may be misinterpreted as surface patterns, leading to unreliable velocity estimations. This occurs because the temporal evolution of these reflections does not necessarily correspond to the actual movement of the flow.
+2.  *Sun reflections:* Intense glare on the water surface, caused by solar reflections or artificial lighting sources, represents an adverse condition for LSPIV analysis ([Figure A.4.13](#figA413)). These high-intensity bright areas prevent proper visualization of surface tracers. If these reflections are processed, they may be misinterpreted as surface patterns, leading to unreliable velocity estimations. This occurs because the temporal evolution of these reflections does not necessarily correspond to the actual movement of the flow.
 
 <a id="figA413"></a>  
 <p align="center">
@@ -2434,7 +2435,7 @@ Inadequate lighting can significantly compromise image quality, affecting the ac
 <p align="center">Figure A.4.13: Presence of undesired sun reflections over the flow measurement area. <em>Source:</em> Own elaboration</p> 
 
 
-3.  <u>Recording directly facing the light source:</u> Capturing images toward the sun or another strong light source results in overexposure and loss of detail in the flow visualization ([Figure A.4.14](#figA414)).
+3.  *Recording directly facing the light source:* Capturing images toward the sun or another strong light source results in overexposure and loss of detail in the flow visualization ([Figure A.4.14](#figA414)).
 
 <a id="figA414"></a>  
 <p align="center">
@@ -2442,7 +2443,7 @@ Inadequate lighting can significantly compromise image quality, affecting the ac
 </p>  
 <p align="center">Figure A.4.14: Recording with a light source directly facing the camera lens. <em>Source:</em> Own elaboration</p> 
 
-4.  <u>Night recordings:</u> Lighting conditions during night recordings often present significant challenges for LSPIV implementation. Even when artificial lights are used, they generally fail to illuminate the entire water surface uniformly, creating dark areas and heterogeneities that complicate tracer visualization. The use of infrared cameras is also not an effective solution, as water absorbs most infrared radiation, appearing as a black surface in the images, which makes tracking surface tracers impossible ([Figure A.4.15](#figA415)). For these reasons, night recordings should be avoided unless an adequate lighting and/or recording system is available to ensure optimal image capture conditions.
+4.  *Night recordings:* Lighting conditions during night recordings often present significant challenges for LSPIV implementation. Even when artificial lights are used, they generally fail to illuminate the entire water surface uniformly, creating dark areas and heterogeneities that complicate tracer visualization. The use of infrared cameras is also not an effective solution, as water absorbs most infrared radiation, appearing as a black surface in the images, which makes tracking surface tracers impossible ([Figure A.4.15](#figA415)). For these reasons, night recordings should be avoided unless an adequate lighting and/or recording system is available to ensure optimal image capture conditions.
 
 <a id="figA415"></a>  
 <p align="center">

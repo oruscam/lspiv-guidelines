@@ -227,9 +227,9 @@ Un aspecto distintivo de LSPIV, vinculado a la posición de la cámara durante l
 </p>  
 <p align="center">Figura 5: Esquemas de puntos de visual de cámara. La imagen enmarcada en rojo, ubicada a la derecha, representa la vista perpendicular, mientras que la imagen en tonos grises, en el lado izquierdo, representa la vista oblicua. <em>Fuente:</em> Elaboración propia</p>
 
-- <u>Visual perpendicular:</u> La cámara se encuentra perpendicular a la superficie del flujo con visual hacia abajo. Todos los píxeles del área de medición representan una misma distancia en la realidad ya que no hay distorsión por perspectiva, asumiendo una distorsión mínima de la lente. La conversión de píxeles a unidad de longitud se puede realizar si se conoce una distancia real dentro de la imagen. Por ejemplo, si en la imagen se visualiza una dimensión conocida (como el ancho de una sección), se puede establecer la relación entre píxeles y unidades de longitud. A esto se lo conoce como rectificación 1D.
+- *Visual perpendicular:* La cámara se encuentra perpendicular a la superficie del flujo con visual hacia abajo. Todos los píxeles del área de medición representan una misma distancia en la realidad ya que no hay distorsión por perspectiva, asumiendo una distorsión mínima de la lente. La conversión de píxeles a unidad de longitud se puede realizar si se conoce una distancia real dentro de la imagen. Por ejemplo, si en la imagen se visualiza una dimensión conocida (como el ancho de una sección), se puede establecer la relación entre píxeles y unidades de longitud. A esto se lo conoce como rectificación 1D.
 
-- <u>Visual oblicua:</u> En el caso en que no se logre una posición perpendicular de la cámara, las imágenes presentan distorsión por perspectiva. Con una visual oblicua, la perspectiva genera que las líneas paralelas en la realidad no lo sean en la imagen y que las distancias que en la realidad son idénticas, en la imagen tengan longitudes en pixeles distintas. Es por eso que no es válido definir un único valor constante para la conversión de pixel a unidad de longitud. La rectificación en este caso implica corregir la distorsión de la perspectiva en la imagen para "alinearla" con las dimensiones reales del terreno. Para realizar este proceso es necesario conocer algunas distancias o coordenadas reales de puntos visibles en la imagen, como dimensiones de estructuras o puntos fijos en el área. Estos puntos se los denomina como Puntos de Control (CPs) en esta guía, aunque en la literatura también pueden encontrarse como Puntos de Referencia Terrestre (GRPs) o Puntos de Control Terrestres (GCPs). Para visuales oblicuas existen dos metodologías de transformación, la rectificación 2D en donde se rectifica un único plano utilizando 4 CPs (en LSPIV, es el plano de la superficie libre el flujo). O bien la rectificación 3D, en donde se utilizan al menos 6 CPs y permite la rectificación de planos a diferentes alturas, que es de utilidad en condiciones de variación del nivel de la superficie libre. En la [Figura 6](#fig6) se muestra un ejemplo de rectificación 2D, donde a partir de una imagen con distorsión por perspectiva se obtiene una imagen que simula haber sido tomada desde una posición perpendicular.
+- *Visual oblicua:* En el caso en que no se logre una posición perpendicular de la cámara, las imágenes presentan distorsión por perspectiva. Con una visual oblicua, la perspectiva genera que las líneas paralelas en la realidad no lo sean en la imagen y que las distancias que en la realidad son idénticas, en la imagen tengan longitudes en pixeles distintas. Es por eso que no es válido definir un único valor constante para la conversión de pixel a unidad de longitud. La rectificación en este caso implica corregir la distorsión de la perspectiva en la imagen para "alinearla" con las dimensiones reales del terreno. Para realizar este proceso es necesario conocer algunas distancias o coordenadas reales de puntos visibles en la imagen, como dimensiones de estructuras o puntos fijos en el área. Estos puntos se los denomina como Puntos de Control (CPs) en esta guía, aunque en la literatura también pueden encontrarse como Puntos de Referencia Terrestre (GRPs) o Puntos de Control Terrestres (GCPs). Para visuales oblicuas existen dos metodologías de transformación, la rectificación 2D en donde se rectifica un único plano utilizando 4 CPs (en LSPIV, es el plano de la superficie libre el flujo). O bien la rectificación 3D, en donde se utilizan al menos 6 CPs y permite la rectificación de planos a diferentes alturas, que es de utilidad en condiciones de variación del nivel de la superficie libre. En la [Figura 6](#fig6) se muestra un ejemplo de rectificación 2D, donde a partir de una imagen con distorsión por perspectiva se obtiene una imagen que simula haber sido tomada desde una posición perpendicular.
 
 
 <a id="fig6"></a>  
@@ -247,7 +247,7 @@ Además de la posición de cámara, es necesario que durante la grabación la c�
 
 **Trazadores superficiales:** Entre los tres elementos necesarios para la implementación de LSPIV, los trazadores son fundamentales. En el contexto de LSPIV, se denomina trazador a cualquier elemento visible que se desplaza con la superficie libre del agua, pudiendo ser este de origen natural o artificial.
 
-1.  <u>Trazadores naturales:</u> Son patrones presentes naturalmente en la superficie libre del flujo. Pueden estar dados por presencia de espuma, residuos que arrastra el flujo, hielo, o bien ondulaciones generadas por la propia turbulencia del flujo ([Figura 7](#fig7)).
+1.  *Trazadores naturales:* Son patrones presentes naturalmente en la superficie libre del flujo. Pueden estar dados por presencia de espuma, residuos que arrastra el flujo, hielo, o bien ondulaciones generadas por la propia turbulencia del flujo ([Figura 7](#fig7)).
 
 
 <a id="fig7"></a>  
@@ -257,7 +257,7 @@ Además de la posición de cámara, es necesario que durante la grabación la c�
 <p align="center">Figura 7: Ejemplos de tipos de trazadores naturales en superficie libre. A) Ondulaciones por turbulencia. B) Trozos de hielo. C) Residuos naturales flotantes. D) Espuma. <em>Fuente:</em> Elaboración propia</p>
 
 
-2.  <u>Trazadores artificiales:</u> Son materiales biodegradables flotantes que se añaden intencionalmente a la superficie libre del flujo, como residuos de vegetación, viruta de madera, entre otros. Su utilización se recomienda cuando el flujo no presenta trazadores naturales visibles. Esta condición (poco óptima) puede darse por alguna, o la combinación de: flujos en estiaje, flujos de muy baja velocidad, flujos transparentes en donde puede verse el material del lecho, en áreas que presenten efectos de remanso, flujos poco turbulentos. Los trazadores se arrojan al flujo aguas arriba del área de medición y se utilizan los patrones formados por ellos para implementar la técnica ([Figura 8](#fig8)).
+2.  *Trazadores artificiales:* Son materiales biodegradables flotantes que se añaden intencionalmente a la superficie libre del flujo, como residuos de vegetación, viruta de madera, entre otros. Su utilización se recomienda cuando el flujo no presenta trazadores naturales visibles. Esta condición (poco óptima) puede darse por alguna, o la combinación de: flujos en estiaje, flujos de muy baja velocidad, flujos transparentes en donde puede verse el material del lecho, en áreas que presenten efectos de remanso, flujos poco turbulentos. Los trazadores se arrojan al flujo aguas arriba del área de medición y se utilizan los patrones formados por ellos para implementar la técnica ([Figura 8](#fig8)).
 
 <a id="fig8"></a>  
 <p align="center">
@@ -328,8 +328,11 @@ A continuación, se presentan las ventajas y desventajas de la técnica LSPIV, a
 **Preguntas usuales:**
 
 **¿Qué tipos de flujos se pueden medir?** LSPIV puede aplicarse para medir flujos de cualquier fluido que se encuentre en condiciones de superficie libre, como ríos, canales, corrientes en infraestructuras hidráulicas e incluso flujos experimentales en laboratorios. La técnica funciona mejor en flujos con trazadores naturales visibles, como espuma, burbujas o estructuras turbulentas. Sin embargo, en ausencia de trazadores naturales, es posible añadir trazadores artificiales para garantizar una textura superficial adecuada para el análisis. Es importante que los trazadores, ya sean naturales o artificiales, sean representativos del movimiento superficial del fluido para asegurar mediciones precisas. No obstante, en flujos altamente turbulentos, como en zonas cercanas a resaltos hidráulicos, suele haber una gran cantidad de trazadores naturales en la superficie, lo que facilita la aplicación de LSPIV para estimar la velocidad superficial con buena resolución. Sin embargo, debido a las intensas fluctuaciones del flujo, la conversión de velocidad superficial a velocidad media en profundidad puede presentar una mayor incertidumbre. En estos casos, la técnica debe ser cuidadosamente evaluada, ya que las variaciones en la distribución de velocidades en la columna de agua pueden afectar la precisión del cálculo del caudal. 
+
 **¿Existen limitaciones en cuanto al tamaño de los cursos de agua a medir?** El tamaño del curso de agua puede influir en la aplicación de LSPIV, principalmente en relación con la visibilidad de los trazadores y la resolución de las imágenes. Lo importante es que el video capture todo el ancho del flujo y que los trazadores superficiales sean claramente visibles. En cursos más anchos, puede ser necesario grabar desde mayor altura, lo que podría reducir la resolución en las zonas más alejadas y afectar la precisión en la estimación de velocidades. Sin embargo, cuando se cumplen los requisitos fundamentales de la técnica, LSPIV también puede aplicarse exitosamente utilizando imágenes satelitales para ríos significativamente anchos.  
+
 **Para la grabación de videos, ¿se necesita una cámara especial?** No, cualquier dispositivo que capture videos o secuencias de imágenes puede utilizarse. Se recomienda que tenga una resolución al menos FullHD a una frecuencia de 24 fotogramas por segundo. La gran mayoría de las cámaras del mercado, incluyendo las de teléfonos celulares, tienen prestaciones más que suficientes para ser utilizadas. Se pueden utilizar dispositivos móviles, cámaras digitales, VANTs, cámaras de vigilancia, entre otros.  
+
 **¿Cuál es la incertidumbre de la técnica en la medición de caudal?** Actualmente, no existe un método estándar para calcular la incertidumbre en LSPIV debido a las muchas variables que influyen en la medición. Sin embargo, en condiciones óptimas, la incertidumbre se acerca a la de otras técnicas de medición de caudal como las hidroacústicas. Generalmente se le asocia un valor de entre 10 y 15%, fundamentalmente debido a la complejidad en definir el coeficiente alfa. No obstante, en condiciones favorables, si se conoce bien la relación entre la $V_{s}$ y $V_{m}$, esta incertidumbre puede reducirse, logrando valores cercanos a los obtenidos con instrumentos acústicos. En situaciones menos favorables, esta incertidumbre puede aumentar considerablemente. La cuantificación y reducción de la incertidumbre en LSPIV es actualmente un campo de investigación activo, con diversos grupos trabajando en desarrollar metodologías más robustas para su estimación.  
 
 ## 1.4 Organización de la guía
@@ -338,7 +341,9 @@ Al avanzar en esta guía, se detallarán las dos fases principales del proceso d
 Además, se incluirán anexos que abordan temas más técnicos y específicos, destinados a aquellos que deseen profundizar en aspectos más detallados del proceso y las metodologías empleadas.
 
 &nbsp;
+&nbsp;
 ***
+&nbsp;
 &nbsp;
 
 # 2. Trabajo de campo
@@ -412,7 +417,7 @@ Las recomendaciones específicas para cada tipo de grabación se vinculan con la
 
 Las técnicas de velocimetría por imágenes no son adecuadas para todos los sitios, y los requerimientos para su selección pueden diferir de los de otras técnicas. Una adecuada selección del sitio es crucial para obtener resultados confiables y facilitar tanto el trabajo en campo como el procesamiento de videos. Las recomendaciones para la selección del sitio son:
 
-<u>Vinculadas al tramo ([Figura 13](#fig13)):</u>
+*Vinculadas al tramo ([Figura 13](#fig13)):*
 
 Preferir:
 
@@ -434,7 +439,7 @@ Evitar:
 <p align="center">Figura 13: Esquemas de ejemplos de selección de sitios para grabación perpendicular. A) Sitio con recirculación. B) Sitio con obstáculos. C) Sitio muy turbulento. D) Sitio recto y uniforme. <em>Fuente:</em> Elaboración propia</p>
 
 
-<u>Vinculadas a los trazadores y las condiciones meteorológicas ([Figura 14](#fig14) y [Figura 15](#fig15)):</u>
+*Vinculadas a los trazadores y las condiciones meteorológicas ([Figura 14](#fig14) y [Figura 15](#fig15)):*
 
 1.  Asegurar la presencia de trazadores superficiales, que deben tener una distribución homogénea en todo el ancho del cauce y estar presentes durante todo el tiempo de grabación.
 2.  Evitar realizar la medición en presencia de viento que pueda afectar el movimiento natural de los trazadores superficiales. Esto es especialmente importante para mediciones en condiciones de estiaje.
@@ -461,7 +466,7 @@ Evitar:
 
 
 
-<u>Vinculadas a la sección transversal (XS):</u>
+*Vinculadas a la sección transversal (XS):*
 
 1.  Definir al menos una sección transversal de estudio, aunque pueden definirse varias para mejorar la estimación del caudal mediante un promedio de los valores obtenidos en cada sección.
 2.  Preferir secciones de geometría regular, evitando geometrías muy accidentadas o con mucha presencia de rocas de gran tamaño (flujos macro rugosos).
@@ -530,7 +535,7 @@ En cuanto a recomendaciones en el sitio, se tiene:
 
 Para la rectificación 1D en grabación perpendicular se requieren dos Puntos de Control (CPs). Los CPs son puntos específicos y fácilmente identificables en la imagen, cuya posición tanto en el terreno como en la imagen conocida. Estos puntos deben ser estáticos y claramente visibles durante toda la grabación. Pueden utilizarse elementos existentes en el entorno o bien materializarse de manera temporal. La rectificación 1D es, en esencia, lo mismo que definir el tamaño del píxel en la imagen, ya que establece la relación entre las dimensiones del terreno real y su representación en la imagen. Las recomendaciones para elegir y usar los CPs son:
 
-<u>Vinculadas a la elección de CPs ([Figura 20](#fig20) y [Figura 21](#fig21)):</u>
+*Vinculadas a la elección de CPs ([Figura 20](#fig20) y [Figura 21](#fig21)):*
 
 1.  Se deben establecer dos CPs, idealmente ubicados uno en cada margen del cauce.
 2.  Los CPs deben estar a la misma altura que la superficie libre del flujo.
@@ -568,7 +573,7 @@ Para la rectificación 1D en grabación perpendicular se requieren dos Puntos de
 
 7.  Pueden utilizarse como CPs los elementos utilizados para demarcar la ubicación de la sección transversal del interés.
 
-<u>Vinculadas al relevamiento de los puntos:</u>
+*Vinculadas al relevamiento de los puntos:*
 
 1.  Existen dos maneras de conocer las coordenadas en el terreno de los CPs, a partir de la medición directa de sus coordenadas planimétricas (*x*, *y*) o bien midiendo las distancias entre ellos. Se puede optar por una u otra en función del equipamiento disponible y los requerimientos del software a usar para el procesamiento de las imágenes (aunque su gran mayoría admite ambas formas).
 2.  Si es necesario conocer las coordenadas planimétricas (*x, y*), los CPs se deben relevar utilizando instrumentos como GNSS (Global Navigation Satellite System) Diferencial o Estación Total.
@@ -661,7 +666,7 @@ Antes de retirarse del sitio de medición responda estas preguntas:
 
 Las técnicas de velocimetría por imágenes no son adecuadas para todos los sitios, y los requerimientos para la selección del sitio pueden diferir de otras técnicas. Una adecuada selección del sitio es crucial para obtener resultados confiables y facilitar tanto el trabajo en campo como el procesamiento de videos. Las recomendaciones para la selección del sitio son:
 
-<u>Vinculadas al tramo ([Figura 23](#fig23)):</u>
+*Vinculadas al tramo ([Figura 23](#fig23)):*
 
 Preferir:
 
@@ -684,7 +689,7 @@ Evitar:
 <p align="center">Figura 23: Esquemas de ejemplos de selección de sitios para grabación oblicua. A) Sitio con recirculación. B) Sitio con obstáculos. C) Sitio muy turbulento. D) Sitio recto y uniforme. <em>Fuente:</em> Elaboración propia</p>
 
 
-<u>Vinculadas a los trazadores y las condiciones meteorológicas ([Figura 24](#fig24) y [Figura 25](#fig25)):</u>
+*Vinculadas a los trazadores y las condiciones meteorológicas ([Figura 24](#fig24) y [Figura 25](#fig25)):*
 
 1.  Asegurar la presencia de trazadores superficiales, que deben tener una distribución homogénea en todo el ancho del cauce y estar presentes durante todo el tiempo de grabación.
 2.  Evitar realizar la medición en presencia de viento que pueda afectar el movimiento natural de los trazadores superficiales. Esto es especialmente importante para mediciones en condiciones de estiaje.
@@ -709,7 +714,7 @@ Evitar:
 
 
 
-<u>Vinculadas a la sección transversal (XS):</u>
+*Vinculadas a la sección transversal (XS):*
 
 1.  Definir al menos una sección transversal de estudio, aunque pueden definirse varias para mejorar la estimación del caudal mediante un promedio de los valores obtenidos en cada sección.
 2.  Preferir secciones de geometría regular, evitando geometrías muy accidentadas o con mucha presencia de rocas de gran tamaño (flujos macro rugosos).
@@ -800,7 +805,7 @@ Para la grabación oblicua, es necesario contar con cuatro Puntos de Control (CP
 
 
 
-<u>Vinculadas al relevamiento de los CPs:</u>
+*Vinculadas al relevamiento de los CPs:*
 
 1.  Existen dos maneras de conocer las coordenadas en el terreno de los CPs, a partir de la medición directa de sus coordenadas planimétricas (*x*, *y*) o bien midiendo las distancias entre ellos. Se puede optar por una u otra en función del equipamiento disponible y los requerimientos del software a usar para el procesamiento de las imágenes (aunque su gran mayoría admite ambas formas).
 2.  Si se opta por las coordenadas planimétricas, los 4 CPs deben relevarse utilizando instrumentos como GNSS Diferencial o Estación Total.
@@ -894,7 +899,7 @@ En el uso de Estaciones Fijas, es importante tener en cuenta que las recomendaci
 
 #### 2.1.3.1 Selección sitio
 
-<u>Vinculadas al tramo a elegir:</u>
+*Vinculadas al tramo a elegir:*
 
 Preferir:
 
@@ -920,7 +925,7 @@ Evitar:
 
 
 
-<u>Vinculadas a trazadores y condiciones meteorológicas ([Figura 33](#fig33)):</u>
+*Vinculadas a trazadores y condiciones meteorológicas ([Figura 33](#fig33)):*
 
 1.  Asegurar la presencia de trazadores superficiales con distribución homogénea en todo el ancho del cauce en el rango de niveles de agua de interés.
 2.  Evitar sitios con ondulaciones estáticas de la superficie libre, es decir que no se desplacen con el flujo superficial, como ondas cruzadas.
@@ -933,7 +938,7 @@ Evitar:
 <p align="center">Figura 33: Esquemas de ejemplos de condiciones de trazadores naturales. A) Sin trazadores visibles. B) Con trazadores visibles solo en un sector. C) Con sombras y reflexiones. D) Con trazadores visibles y uniformes.
  <em>Fuente:</em> Elaboración propia</p>
 
-<u>Vinculadas a la sección transversal (XS):</u>
+*Vinculadas a la sección transversal (XS):*
 
 1.  Definir al menos una sección transversal de estudio, aunque pueden definirse varias para mejorar la estimación del caudal mediante un promedio de los valores obtenidos en cada sección.
 2.  Preferir secciones de geometría regular, evitando geometrías muy accidentadas o con mucha presencia de rocas de gran tamaño (flujos macro rugosos).
@@ -979,7 +984,7 @@ Para realizar la rectificación en videos tomados desde una Estación Fija con u
  <em>Fuente:</em> Elaboración propia</p>
 
 
-<u>Vinculadas al relevamiento de los puntos:</u>
+*Vinculadas al relevamiento de los puntos:*
 
 1.  Para la obtención de las coordenadas espaciales , es fundamental que los datos de relevamiento de los CPs tengan una precisión relativa adecuada, ya que los errores en las coordenadas espaciales pueden complicar el proceso o incluso hacerlo fallar. Se recomienda el uso de GNSS Diferencial o Estación Total.
 2.  Las coordenadas de los CPs deben incluir la altitud (*z*), y todas las elevaciones deben estar referenciadas a un mismo datum. Tanto los datos de nivel del agua como los de las secciones transversales deben tener el mismo datum para garantizar la coherencia en la rectificación.
@@ -1659,7 +1664,7 @@ Existen diferentes casos particulares de transformación proyectiva que pueden u
  <em>Fuente:</em> Hartley & Zisserman (2004)</p>  
 
 
-1.  <u>Similaridad:</u> Se preservan las formas (angulas y paralelismo), y se admite un escalado uniforme, rotación y traslación. La matriz de transformación incluye un factor de escala $s$, un ángulo de rotación $\theta$, y traslaciones $t_{x}$ y $t_{y}$.
+1.  *Similaridad:* Se preservan las formas (angulas y paralelismo), y se admite un escalado uniforme, rotación y traslación. La matriz de transformación incluye un factor de escala $s$, un ángulo de rotación $\theta$, y traslaciones $t_{x}$ y $t_{y}$.
 
 <a id="e13"></a>  
 <p align="center">
@@ -1668,7 +1673,7 @@ Existen diferentes casos particulares de transformación proyectiva que pueden u
 
 Para resolver la matriz se necesitan al menos dos correspondencias de puntos. Esta transformación es indicada para secuencias de imágenes con movimientos de cámara simples y suaves, como pequeñas vibraciones u oscilaciones.
 
-2.  <u>Afín:</u> Se preserva el paralelismo, y se admite variaciones en ángulos, rotaciones, escalado no uniforme y traslaciones. La matriz de transformación es:
+2.  *Afín:* Se preserva el paralelismo, y se admite variaciones en ángulos, rotaciones, escalado no uniforme y traslaciones. La matriz de transformación es:
 
 <a id="e14"></a>  
 <p align="center">
@@ -1677,7 +1682,7 @@ Para resolver la matriz se necesitan al menos dos correspondencias de puntos. Es
 
 Los coeficientes $a_{i j}$ representan el escalado, la rotación y deformación. Para resolver la matriz se necesitan al menos tres correspondencias de puntos. Esta transformación es indicada para secuencias de imágenes con movimientos de cámara que incluyan traslaciones, rotaciones, variaciones de zoom y/o deformaciones por cizalladura.
 
-3.  <u>Proyectiva:</u> No se preservan ángulos, paralelismo ni escala. Se admiten deformaciones complejas de perspectiva. La matriz de transformación es la indicada en la ecuación [(1.1)](#e11). Para resolver la matriz se necesitan al menos cuatro correspondencias de puntos. Esta transformación es indicada para secuencias de imágenes con movimientos de cámara complejos, que incluyan variaciones en la perspectiva. Es la transformación que presenta mayor sensibilidad.
+3.  *Proyectiva:* No se preservan ángulos, paralelismo ni escala. Se admiten deformaciones complejas de perspectiva. La matriz de transformación es la indicada en la ecuación [(1.1)](#e11). Para resolver la matriz se necesitan al menos cuatro correspondencias de puntos. Esta transformación es indicada para secuencias de imágenes con movimientos de cámara complejos, que incluyan variaciones en la perspectiva. Es la transformación que presenta mayor sensibilidad.
 
 Se logra una mayor precisión en la transformación estimada cuando mayor es el número de features emparejados utilizados para resolver la matriz de transformación. Sin embargo, la presencia de malos emparejamientos puede inducir ruido en este proceso. Existen algoritmos que buscan reducir la influencie de esos emparejamientos anómalos en la determinación de $\mathbf{H}$ como el método RANSAC (Fischler & Bolles, 1981) o sus modificaciones. Una vez obtenida la matriz de transformación se aplica sobre la imagen los pixeles de la a transformar para, en este caso, minimizar el movimiento de cámara. Un ejemplo de resultado de transformación de similaridad se muestra en la [Figura A.1.6](#figA16), sobre el ejemplo de [Figura A.1.4](#figA14).
 
@@ -1766,7 +1771,7 @@ $Skew$, coeficiente de no ortogonalidad (despreciable, la mayoría de los casos)
 
 ### 1.2.2 Procedimiento para la Calibración
 
-1.  <u>Captura de Imágenes:</u> Se deben capturar múltiples imágenes de un patrón de calibración, como un tablero de ajedrez, desde diferentes ángulos y posiciones. Es importante que las imágenes se tomen bajo las mismas condiciones que serán utilizadas durante el procesamiento, incluyendo el modo de captura (video o foto) y la distancia focal. Se recomienda tomar al menos tres imágenes para resolver las ecuaciones de calibración, aunque un mayor número mejora la precisión. Evitar reflejos y sombras, asegurando que el patrón cubra completamente el campo de visión. En la [Figura A.1.8](#figA18) se muestra un ejemplo de set de foros para la calibración de una cámara.
+1.  *Captura de Imágenes:* Se deben capturar múltiples imágenes de un patrón de calibración, como un tablero de ajedrez, desde diferentes ángulos y posiciones. Es importante que las imágenes se tomen bajo las mismas condiciones que serán utilizadas durante el procesamiento, incluyendo el modo de captura (video o foto) y la distancia focal. Se recomienda tomar al menos tres imágenes para resolver las ecuaciones de calibración, aunque un mayor número mejora la precisión. Evitar reflejos y sombras, asegurando que el patrón cubra completamente el campo de visión. En la [Figura A.1.8](#figA18) se muestra un ejemplo de set de foros para la calibración de una cámara.
 
 <a id="figA18"></a>  
 <p align="center">
@@ -1774,7 +1779,7 @@ $Skew$, coeficiente de no ortogonalidad (despreciable, la mayoría de los casos)
 </p>  
 <p align="center">Figura A.1.8: Set de fotos para la calibración de la cámara. Las tomas son realizadas en modo videos. Se puede apreciar la deformación de la lente sobre cada una de las tomas. <em>Fuente:</em> Elaboración propia</p> 
 
-2.  <u>Detección de Esquinas:</u> Existen varias bibliotecas y software especializados para la calibración de cámaras, como OpenCV[^1], Matlab[^2] o Agisoft[^3], entre otros. El software utilizado para la calibración detectará automáticamente las esquinas del patrón y calculará los parámetros intrínsecos y de distorsión: $f_{x}$, $f_{y} , \  c_{x} ,$ $c_{y}$, $K_{1}$, $K_{2}$, $K_{3}$, $P_{1}$ $P_{2}$ y $S k e w$.
+2.  *Detección de Esquinas:* Existen varias bibliotecas y software especializados para la calibración de cámaras, como OpenCV[^1], Matlab[^2] o Agisoft[^3], entre otros. El software utilizado para la calibración detectará automáticamente las esquinas del patrón y calculará los parámetros intrínsecos y de distorsión: $f_{x}$, $f_{y} , \  c_{x} ,$ $c_{y}$, $K_{1}$, $K_{2}$, $K_{3}$, $P_{1}$ $P_{2}$ y $S k e w$.
 
 [^1]: <https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html>
 
@@ -1782,7 +1787,7 @@ $Skew$, coeficiente de no ortogonalidad (despreciable, la mayoría de los casos)
 
 [^3]: <https://agisoft.freshdesk.com/support/solutions/articles/31000160059-lens-calibration-using-chessboard-pattern-in-metashape>
 
-3.  <u>Evaluación de Resultados:</u> Los parámetros obtenidos se aplican a las imágenes para corregir la distorsión. En la [Figura A.1.9](#figA19) se muestra un ejemplo de cómo una imagen original (a) se corrige para eliminar las distorsiones (b).
+3.  *Evaluación de Resultados:* Los parámetros obtenidos se aplican a las imágenes para corregir la distorsión. En la [Figura A.1.9](#figA19) se muestra un ejemplo de cómo una imagen original (a) se corrige para eliminar las distorsiones (b).
 
 <a id="figA19"></a>  
 <p align="center">
@@ -2297,9 +2302,9 @@ Los trazadores superficiales son elementos visibles (óptica o térmicamente) en
 
 En términos generales, los aspectos clave para evaluar la presencia de condiciones favorables para implementar LSPIV incluyen:
 
-1.  <u>Tipo de trazador:</u> Las características (forma, tamaño, flotabilidad) de los trazadores deben asegurar que su desplazamiento sea muy similar al desplazamiento propio de la superficie libre del agua. A su vez, éstos deben fácilmente visibles en las imágenes, por lo que aspectos como color o variaciones de tonalidad juegan un rol importante.
-2.  <u>Distribución de trazadores:</u> La distribución debe ser homogénea en el espacio y el tiempo, lo que significa que los trazadores deben estar presentes en todo el ancho del curso de agua a medir y durante toda la secuencia de imágenes. Una distribución inadecuada, ya sea espacial o temporal, puede afectar significativamente los resultados (Detert, 2021; Meselhe et al., 2004).
-3.  <u>Factores ambientales y de grabación:</u> Existen factores ambientales, como condiciones de iluminación y presencia de viento, que pueden complicar la visualización de los trazadores o alterar su movimiento introduciendo sesgos en los resultados. Además, condiciones asociadas a la ubicación y orientación de la cámara durante la grabación también pueden impactar negativamente en la calidad de la visualización del área de medición.
+1.  *Tipo de trazador:* Las características (forma, tamaño, flotabilidad) de los trazadores deben asegurar que su desplazamiento sea muy similar al desplazamiento propio de la superficie libre del agua. A su vez, éstos deben fácilmente visibles en las imágenes, por lo que aspectos como color o variaciones de tonalidad juegan un rol importante.
+2.  *Distribución de trazadores:* La distribución debe ser homogénea en el espacio y el tiempo, lo que significa que los trazadores deben estar presentes en todo el ancho del curso de agua a medir y durante toda la secuencia de imágenes. Una distribución inadecuada, ya sea espacial o temporal, puede afectar significativamente los resultados (Detert, 2021; Meselhe et al., 2004).
+3.  *Factores ambientales y de grabación:* Existen factores ambientales, como condiciones de iluminación y presencia de viento, que pueden complicar la visualización de los trazadores o alterar su movimiento introduciendo sesgos en los resultados. Además, condiciones asociadas a la ubicación y orientación de la cámara durante la grabación también pueden impactar negativamente en la calidad de la visualización del área de medición.
 
 En las siguientes secciones se describirán los tipos de trazadores comúnmente encontrados o utilizados en cursos de agua, junto con recomendaciones para evaluar si las condiciones son adecuadas para implementar LSPIV.
 
@@ -2450,7 +2455,7 @@ Elementos como vegetación, estructuras artificiales (puentes, pilares) o inclus
 
 Una iluminación inadecuada puede comprometer seriamente la calidad de las imágenes. Esto incluye:
 
-1.  <u>Iluminación inconsistente:</u> Las variaciones tanto espaciales como temporales en las condiciones de iluminación pueden afectar significativamente los resultados del análisis con LSPIV. Cambios bruscos de iluminación dentro del área de interés, como zonas con sombras o transiciones entre áreas con diferentes intensidades de luz ([Figura A.4.12](#figA412)), pueden ser interpretados como patrones estáticos durante el procesamiento, generando sesgos hacia velocidades nulas en esas regiones. Por otro lado, las variaciones temporales en la intensidad de la luz, como aquellas provocadas por nubes que cubren intermitentemente el sol, pueden dificultar la identificación consistente de los trazadores en el video. Aunque algunas de estas situaciones pueden corregirse parcialmente durante el procesamiento de las imágenes, es preferible evitarlas en la etapa de grabación para garantizar resultados más precisos y confiables.
+1.  *Iluminación inconsistente:* Las variaciones tanto espaciales como temporales en las condiciones de iluminación pueden afectar significativamente los resultados del análisis con LSPIV. Cambios bruscos de iluminación dentro del área de interés, como zonas con sombras o transiciones entre áreas con diferentes intensidades de luz ([Figura A.4.12](#figA412)), pueden ser interpretados como patrones estáticos durante el procesamiento, generando sesgos hacia velocidades nulas en esas regiones. Por otro lado, las variaciones temporales en la intensidad de la luz, como aquellas provocadas por nubes que cubren intermitentemente el sol, pueden dificultar la identificación consistente de los trazadores en el video. Aunque algunas de estas situaciones pueden corregirse parcialmente durante el procesamiento de las imágenes, es preferible evitarlas en la etapa de grabación para garantizar resultados más precisos y confiables.
 
 <a id="figA412"></a>  
 <p align="center">
@@ -2459,7 +2464,7 @@ Una iluminación inadecuada puede comprometer seriamente la calidad de las imág
 <p align="center">Figura A.4.12: Variación espacial en las condiciones de iluminación del área de interés del flujo. <em>Fuente:</em> Elaboración propia</p> 
 
 
-1.  <u>Reflexiones solares:</u> Los brillos intensos en la superficie del agua, generados por reflexiones solares o fuentes de iluminación artificial, representan una condición adversa para el análisis con LSPIV ([Figura A.4.13](#figA413)). Estas áreas de alta intensidad lumínica impiden la adecuada visualización de los trazadores superficiales y, en caso de ser procesadas, los reflejos pueden ser interpretados erróneamente como patrones superficiales. Esto puede resultar en estimaciones poco confiables, ya que la evolución de estos reflejos en el tiempo no necesariamente se corresponde al movimiento real del flujo.
+1.  *Reflexiones solares:* Los brillos intensos en la superficie del agua, generados por reflexiones solares o fuentes de iluminación artificial, representan una condición adversa para el análisis con LSPIV ([Figura A.4.13](#figA413)). Estas áreas de alta intensidad lumínica impiden la adecuada visualización de los trazadores superficiales y, en caso de ser procesadas, los reflejos pueden ser interpretados erróneamente como patrones superficiales. Esto puede resultar en estimaciones poco confiables, ya que la evolución de estos reflejos en el tiempo no necesariamente se corresponde al movimiento real del flujo.
 
 <a id="figA413"></a>  
 <p align="center">
@@ -2468,7 +2473,7 @@ Una iluminación inadecuada puede comprometer seriamente la calidad de las imág
 <p align="center">Figura A.4.13: Presencia de reflexiones solares indeseadas sobre el área de interés del flujo. <em>Fuente:</em> Elaboración propia</p> 
 
 
-3.  <u>Grabación de frente a la fuente de luz:</u> Capturar imágenes directamente hacia el sol u otra fuente intensa de luz provoca sobreexposición y pérdida de detalle en la visualización del flujo ([Figura A.4.14](#figA414)).
+3.  *Grabación de frente a la fuente de luz:* Capturar imágenes directamente hacia el sol u otra fuente intensa de luz provoca sobreexposición y pérdida de detalle en la visualización del flujo ([Figura A.4.14](#figA414)).
 
 <a id="figA414"></a>  
 <p align="center">
@@ -2477,7 +2482,7 @@ Una iluminación inadecuada puede comprometer seriamente la calidad de las imág
 <p align="center">Figura A.4.14: Grabación con una fuente de luz de frente al lente de la cámara. <em>Fuente:</em> Elaboración propia</p> 
 
 
-4.  <u>Grabaciones nocturnas:</u> Las condiciones de iluminación durante grabaciones nocturnas suelen presentar desafíos importantes para la implementación de LSPIV. Aunque se utilicen luces artificiales, estas generalmente no logran iluminar de manera uniforme toda la superficie del flujo, lo que genera zonas oscuras y heterogeneidades que dificultan la visualización de los trazadores. El uso de cámaras infrarrojas tampoco resulta una solución eficaz, ya que el agua absorbe la mayor parte de la radiación en esta longitud de onda, apareciendo como una superficie negra en las imágenes, lo que imposibilita el seguimiento de los trazadores superficiales ([Figura A.4.15](#figA415)). Por estas razones, se recomienda evitar grabaciones nocturnas a menos que se disponga de un sistema de iluminación y/o grabación capaz de garantizar condiciones óptimas para la captura de imágenes.
+4.  *Grabaciones nocturnas:* Las condiciones de iluminación durante grabaciones nocturnas suelen presentar desafíos importantes para la implementación de LSPIV. Aunque se utilicen luces artificiales, estas generalmente no logran iluminar de manera uniforme toda la superficie del flujo, lo que genera zonas oscuras y heterogeneidades que dificultan la visualización de los trazadores. El uso de cámaras infrarrojas tampoco resulta una solución eficaz, ya que el agua absorbe la mayor parte de la radiación en esta longitud de onda, apareciendo como una superficie negra en las imágenes, lo que imposibilita el seguimiento de los trazadores superficiales ([Figura A.4.15](#figA415)). Por estas razones, se recomienda evitar grabaciones nocturnas a menos que se disponga de un sistema de iluminación y/o grabación capaz de garantizar condiciones óptimas para la captura de imágenes.
 
 <a id="figA415"></a>  
 <p align="center">
