@@ -2211,7 +2211,7 @@ The rectification errors must be quantified for each GRP used. A common method f
   <img src="./img/e318.png">
 </p>
 
-where $x_{imagen,i}$ and $y_{imagen,i}$ are the rectified image coordinates of the GRPs, y $x_{GRP,i}$ e $y_{GRP,i} re the real-world coordinates measured in the field for the i-esimo GRP, and n is the total number of GRPs used. The resulting RMSE value, $RMSE_r$, provides a radial measurement of positional error around each GRP and is expressed in the same units as the input coordinates.
+where $x_{imagen,i}$ and $y_{imagen,i}$ are the rectified image coordinates of the GRPs, y $x_{GRP,i}$ e $y_{GRP,i}$ are the real-world coordinates measured in the field for the i-esimo GRP, and n is the total number of GRPs used. The resulting RMSE value, $RMSE_r$, provides a radial measurement of positional error around each GRP and is expressed in the same units as the input coordinates.
 
 To ensure accurate pixel scaling, the $RMSE_r$ value must not exceed three times the pixel size or three times the reported Ground Sampling Distance (GSD) at a 68% confidence level (equivalent to 1 sigma). It is recommended to exclude GRPs with large errors, as they can introduce significant uncertainty in the rectification process and compromise the quality of the results.
 
