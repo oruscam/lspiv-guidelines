@@ -1744,7 +1744,7 @@ Donde:
 
 $X$, $Y$ y $Z$, coordenadas del sistema local de la cámara;
 
-$u$ y$\  v$, coordenadas proyectadas sobre la imagen ;
+$u$ y $v$, coordenadas proyectadas sobre la imagen ;
 
 $f_{x}$ y $f_{y}$, son longitudes focales;
 
@@ -1945,7 +1945,7 @@ Existen dos formas de resolver esta ecuación. El método lo más directo es de 
 
 ### 2.1.1 Correlación Cruzada Directa – DCC:
 
-En este método, el cálculo se realiza en el dominio espacial, permitiendo que las ventanas de interrogación A y B tengan tamaños diferentes (Stamhuis, 2006). l usar una ventana B de mayor tamaño que A, se minimiza la pérdida de información por desplazamiento de partículas, lo que reduce el ruido de fondo. Utilizando esta metodología se reduce sustancialmente el error sistemático y el aleatorio de cálculo (Huang et al., 1997) ([Figura A.2.5](figA25)). Sin embargo, al ser un método de primer orden los análisis se hacen sobre variaciones lineales de posición, no teniéndose en cuenta rotaciones ni deformaciones. Aunque este enfoque es computacionalmente costoso O($N^{4}$), especialmente para tamaños de ventanas grandes, es más preciso en algunos casos que el método basado en la Transformada de Fourier (Raffel et al., 2007; Thielicke y Stamhuis, 2014).
+En este método, el cálculo se realiza en el dominio espacial, permitiendo que las ventanas de interrogación A y B tengan tamaños diferentes (Stamhuis, 2006). Al usar una ventana B de mayor tamaño que A, se minimiza la pérdida de información por desplazamiento de partículas, lo que reduce el ruido de fondo. Utilizando esta metodología se reduce sustancialmente el error sistemático y el aleatorio de cálculo (Huang et al., 1997) ([Figura A.2.5](figA25)). Sin embargo, al ser un método de primer orden los análisis se hacen sobre variaciones lineales de posición, no teniéndose en cuenta rotaciones ni deformaciones. Aunque este enfoque es computacionalmente costoso O($N^{4}$), especialmente para tamaños de ventanas grandes, es más preciso en algunos casos que el método basado en la Transformada de Fourier (Raffel et al., 2007; Thielicke y Stamhuis, 2014).
 
 <a id="figA25"></a>  
 <p align="center">
@@ -2086,7 +2086,7 @@ Si el modelo de cámara es más sofisticado que el modelo estenopeico, como por 
 En la ecuación [(3.5)](#e35) intervienen dos tipos de parámetros, conformando ambos la denominada *matriz cámara*:
 
 1.  **Parámetros intrínsecos:** Definen las características de la cámara en términos de escala y centrado de la imagen en el sensor. Estos parámetros incluyen $\rho_{u}$ y $\rho_{v}$ que se refieren al tamaño de un pixel en las dos direcciones respectivamente, $u_{0}$ y $v_{0}$ representan la posición del centro del sensor de la cámara, y $f$ la distancia focal.
-2.  **Parámetros extrínsecos:** Estos parámetros definen la posición y orientación de la cámara en el espacio. En la última matriz $\begin{pmatrix}\mathbf{R} & \mathbf{T} \\ \mathbf{0}_{1 \times 3} & 1\end{pmatrix}$ define la posición del centro de cámara en el mundo. $\mathbf{R}$ es la matriz de rotación que indica la orientación de la lente y $\mathbf{T}$ es la posición del origen del sistema de la realidad (a menudo erróneamente considerado como la posición de la cámara).
+2.  **Parámetros extrínsecos:** Estos parámetros definen la posición y orientación de la cámara en el espacio. En la última matriz se define la posición del centro de cámara en el mundo. $\mathbf{R}$ es la matriz de rotación que indica la orientación de la lente y $\mathbf{T}$ es la posición del origen del sistema de la realidad (a menudo erróneamente considerado como la posición de la cámara).
 
 
 <a id="figA32"></a>  
@@ -2112,7 +2112,7 @@ con:
 </p> 
 
 
-donde $u$ y$\  v$ son las coordenadas proyectadas cartesianas sobre el sensor de la cámara.
+donde $u$ y $v$ son las coordenadas proyectadas cartesianas sobre el sensor de la cámara.
 
 Una particularidad de la relación [(3.6)](#e36) es su invariancia. Si multiplicamos la matriz cámara por un factor $\lambda$:
 

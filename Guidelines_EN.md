@@ -143,6 +143,8 @@ For proper use of this guide, it is recommended to follow the proposed order. Be
 
 [5. Glossary](#5-glossary)  
 
+[6. Annexes](#5-annexes)  
+
 # 1. Introduction
 
 Accurate measurement of streamflow is essential for efficient water resources management. These data are crucial for the planning of hydraulic infrastructure, flood risk management, and environmental impact monitoring, among other applications.
@@ -1481,7 +1483,7 @@ XS: Cross-section
 
 *** 
 
-# 5. Annexes
+# 6. Annexes
 
 <details id="An1">
 
@@ -2052,7 +2054,7 @@ If the camera model is more sophisticated than the pinhole model, such as a digi
 In Equation [(3.5)](#e35), two types of parameters appear, forming what is known as the *camera matrix*:
 
 1.  **Intrinsic parameters:** Define the internal characteristics of the camera in terms of scale and image centering on the sensor. These parameters include $\rho_{u}$ y $\rho_{v}$ which refer to the pixel size in the two directions, $u_{0}$ y $v_{0}$ r which represent the position of the camera sensor’s center, and $f$ the focal length.
-2.  **Extrinsic parameters:** Define the position and orientation of the camera in space. In the last matrix, $\begin{pmatrix}\mathbf{R} & \mathbf{T} \\ \mathbf{0}_{1 \times 3} & 1\end{pmatrix}$ defines the position of the camera center in the real world. $\mathbf{R}$ is the rotation matrix, indicating the lens orientation, and $\mathbf{T}$ the position of the real-world coordinate system’s origin (often mistakenly considered the camera’s position).
+2.  **Extrinsic parameters:** Define the position and orientation of the camera in space. The last matrix defines the position of the camera center in the real world. $\mathbf{R}$ is the rotation matrix, indicating the lens orientation, and $\mathbf{T}$ the position of the real-world coordinate system’s origin (often mistakenly considered the camera’s position). $begin{pmatrix}\mathbf{R} & \mathbf{T} \\ \mathbf{0}_{1 \times 3} & 1\end{pmatrix}$
 
 
 <a id="figA32"></a>  
