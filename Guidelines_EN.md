@@ -143,7 +143,7 @@ For proper use of this guide, it is recommended to follow the proposed order. Be
 
 [5. Glossary](#5-glossary)  
 
-[6. Annexes](#5-annexes)  
+[6. Annexes](#6-annexes)  
 
 # 1. Introduction
 
@@ -286,14 +286,11 @@ Additionally, bathymetry of the cross-section must be known. This requires condu
 For simplicity, [Figure 9](#fig9) schematically represents the computation of discharge as $Q = V_{m} \  x \  A$. However, once the mean velocity profile and cross-section bathymetry are known, discharge is typically calculated using the mid-section or mean-section method.
 
 
-
-![](imgaa/1be3733e15027934a26253ddc4d0f44a.png)
 <a id="fig9"></a>  
 <p align="center">
   <img src="./img/fig9.png">
 </p>  
 <p align="center">Figure 9: General scheme of LSPIV implementation for flow discharge estimation. <em>Source:</em> Own elaboration</p>
-
 
 
 LSPIV has become established as a reliable and cost-effective technique for measuring discharge, demonstrating accuracy comparable to traditional methods, such as current meters or hydroacoustic techniques, under optimal conditions of lighting, recording, and tracer distribution. However, its performance may be affected in scenarios where conditions are less favorable for implementing the technique, such as a lack of surface tracers, poor lighting conditions, or the presence of wind, among others. The uncertainty in discharge measurement is typically around 10–15% under conditions suitable for applying the technique. However, no generalized methods currently exist for determining error. Proper fieldwork planning (site selection, recording approach, and topographic surveys) and the use of complementary techniques, such as seeding artificial tracers, help mitigate these limitations and maintain consistent results.
@@ -2054,7 +2051,7 @@ If the camera model is more sophisticated than the pinhole model, such as a digi
 In Equation [(3.5)](#e35), two types of parameters appear, forming what is known as the *camera matrix*:
 
 1.  **Intrinsic parameters:** Define the internal characteristics of the camera in terms of scale and image centering on the sensor. These parameters include $\rho_{u}$ y $\rho_{v}$ which refer to the pixel size in the two directions, $u_{0}$ y $v_{0}$ r which represent the position of the camera sensor’s center, and $f$ the focal length.
-2.  **Extrinsic parameters:** Define the position and orientation of the camera in space. The last matrix defines the position of the camera center in the real world. $\mathbf{R}$ is the rotation matrix, indicating the lens orientation, and $\mathbf{T}$ the position of the real-world coordinate system’s origin (often mistakenly considered the camera’s position). $begin{pmatrix}\mathbf{R} & \mathbf{T} \\ \mathbf{0}_{1 \times 3} & 1\end{pmatrix}$
+2.  **Extrinsic parameters:** Define the position and orientation of the camera in space. The last matrix defines the position of the camera center in the real world. $\mathbf{R}$ is the rotation matrix, indicating the lens orientation, and $\mathbf{T}$ the position of the real-world coordinate system’s origin (often mistakenly considered the camera’s position).
 
 
 <a id="figA32"></a>  
@@ -2106,7 +2103,7 @@ The homography matrix establishes the relationship between the coordinates of po
   <img src="./img/e310.png">
 </p> 
 
-The matrix $H$ is called the homography matrix, containing 9 elements, of which 8 are unknown. In this case, the homography matrix can be solved using only 4 points whose real-world coordinates and projected coordinates are known. It is important to note that this transformation applies only within a single plane, to which an elevation $Z = 0 $ is assigned, and is not valid for transforming points outside this plane.
+The matrix $H$ is called the homography matrix, containing 9 elements, of which 8 are unknown. In this case, the homography matrix can be solved using only 4 points whose real-world coordinates and projected coordinates are known. It is important to note that this transformation applies only within a single plane, to which an elevation $Z = 0$ is assigned, and is not valid for transforming points outside this plane.
 
 ## 3.3 Rectification methods
 
@@ -2214,7 +2211,7 @@ The rectification errors must be quantified for each GRP used. A common method f
   <img src="./img/e318.png">
 </p>
 
-where $x_{imagen,i}$ and $y_{imagen,i}$ are the rectified image coordinates of the GRPs, y x_{GRP.i} e y_{GRP.i}\ re the real-world coordinates measured in the field for the i-esimo GRP, and n is the total number of GRPs used. The resulting RMSE value, $RMSE_r$, provides a radial measurement of positional error around each GRP and is expressed in the same units as the input coordinates.
+where $x_{imagen,i}$ and $y_{imagen,i}$ are the rectified image coordinates of the GRPs, y $x_{GRP,i}$ e $y_{GRP,i} re the real-world coordinates measured in the field for the i-esimo GRP, and n is the total number of GRPs used. The resulting RMSE value, $RMSE_r$, provides a radial measurement of positional error around each GRP and is expressed in the same units as the input coordinates.
 
 To ensure accurate pixel scaling, the $RMSE_r$ value must not exceed three times the pixel size or three times the reported Ground Sampling Distance (GSD) at a 68% confidence level (equivalent to 1 sigma). It is recommended to exclude GRPs with large errors, as they can introduce significant uncertainty in the rectification process and compromise the quality of the results.
 
@@ -2548,7 +2545,7 @@ With this interpolated value, the velocity at node $i$ is then calculated as:
   <img src="./img/e55.png">  
 </p>  
 
-This method applies a scale factor dependent on depth, considering the flow geometry in the lateral variation of velocity profiles. For extrapolation toward the banks, a zero velocity at the bank may be assumed, or an estimated bank velocity $V_{bank}$ may be obtained using a power-law extrapolation from the velocity measured near the bank $V_{ad}$, with exponent $1/m$:
+This method applies a scale factor dependent on depth $\sqrt{h_i}$, considering the flow geometry in the lateral variation of velocity profiles. For extrapolation toward the banks, a zero velocity at the bank may be assumed, or an estimated bank velocity $V_{bank}$ may be obtained using a power-law extrapolation from the velocity measured near the bank $V_{ad}$, with exponent $1/m$:
 
 <a id="e56"></a>  
 <p align="center">  
@@ -2644,7 +2641,7 @@ There are multiple methodological approaches for estimating α, given its high v
 
 ### 6.1.1 Method 1a: α from velocity data extrapolated from ADCP
 
-A site-specific average α value (global α) can be easily estimated from ADCP velocity data using the QRev software (Randall, 2020). First, open the measurement in QRev, then click on "Extrapolation" and select "Velocity" ([Figure A.6.2](#figA62)). Choose the extrapolation method that best fits the data (e.g., power law). The data will be displayed as normalized elevation $z / H$​ on the y-axis and normalized velocity $v / V$​ on the x-axis. Set the subsection range to 20%–80% to use only the central portion of the channel. Click on the "Data Cursor" button and select the top of the velocity profile where it reaches the water surface. The "X" value represents the ratio of surface velocity to mean depth-averaged velocity $v_{s} / V$ ​. Then, the site-specific α value is then obtained as ​$\alpha = \frac{1}{" x "} = \frac{V}{v_{s}}$ (Hauet et al., 2018). α values for the site can be recorded across different flow conditions and plotted against depth scale to create a site-specific stage–α curve ([Figure A.6.3](#figA63)). For extreme conditions (e.g., floods), specific α values can be estimated by extrapolating this curve.
+A site-specific average α value (global α) can be easily estimated from ADCP velocity data using the QRev software (Randall, 2020). First, open the measurement in QRev, then click on "Extrapolation" and select "Velocity" ([Figure A.6.2](#figA62)). Choose the extrapolation method that best fits the data (e.g., power law). The data will be displayed as normalized elevation $z / H$​ on the y-axis and normalized velocity $v / V$​ on the x-axis. Set the subsection range to 20%–80% to use only the central portion of the channel. Click on the "Data Cursor" button and select the top of the velocity profile where it reaches the water surface. The "X" value represents the ratio of surface velocity to mean depth-averaged velocity $v_{s} / V$ ​. Then, the site-specific α value is then obtained as $\alpha = \frac{1}{x} = \frac{V}{v_{s}}$ (Hauet et al., 2018). α values for the site can be recorded across different flow conditions and plotted against depth scale to create a site-specific stage–α curve ([Figure A.6.3](#figA63)). For extreme conditions (e.g., floods), specific α values can be estimated by extrapolating this curve.
 
 Although this method is convenient for users familiar with ADCP measurements, it should be applied with caution due to uncertainties in the extrapolation process. Significant velocity changes can occur between the measured points and the water surface due to wind, secondary currents, or turbulence, and the best extrapolation method may vary depending on site-specific conditions
 
