@@ -84,10 +84,13 @@ La presente guía se proporciona únicamente con fines informativos y educativos
 
 ## **Licencia y Control de Cambios**
 
-Esta guía implementa un esquema de licencia dual para proteger tanto la naturaleza colaborativa del documento como la integridad de sus elementos visuales:
+Esta guía está licenciada bajo la licencia [Creative Commons BY-ND 4.0 (Atribución-SinDerivadas)](https://creativecommons.org/licenses/by-nd/4.0/deed.es).
 
-1.  El contenido textual está licenciado bajo GNU Free Documentation License v1.3, permitiendo su libre distribución, modificación y mejora por parte de la comunidad técnica, siempre que se mantenga la misma licencia en obras derivadas y se otorgue el crédito correspondiente a los autores originales.
-2.  Todas las figuras, diagramas e imágenes están protegidos bajo Creative Commons BY-ND 4.0 (Attribution-NoDerivatives). Esto significa que pueden ser compartidas libremente citando la fuente original, pero no pueden ser modificadas sin autorización expresa de los autores.
+- El contenido textual, las figuras, los diagramas y las imágenes están protegidos por esta licencia.  
+- Eres libre de compartir y distribuir este documento, siempre que se otorgue el crédito adecuado a los autores originales.  
+- No se permiten modificaciones, obras derivadas o adaptaciones de ningún tipo sin la autorización explícita de los autores.  
+
+Para más detalles, consulta el archivo **[LICENSE.md](./LICENSE.md)** en este repositorio.
 
 ## **Proceso de Contribución y Validación**
 

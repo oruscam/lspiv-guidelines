@@ -84,10 +84,13 @@ This guide is provided solely for informational and educational purposes. The au
 
 ## **License and Change Control**
 
-This guide implements a dual licensing scheme to protect both the collaborative nature of the document and the integrity of its visual elements:
+This guide is licensed under the [Creative Commons BY-ND 4.0 (Attribution-NoDerivatives)](https://creativecommons.org/licenses/by-nd/4.0/) license.
 
-1.  The textual content is licensed under the GNU Free Documentation License v1.3, allowing free distribution, modification, and improvement by the technical community, provided that derivative works maintain the same license and proper credit is given to the original authors.
-2.  All figures, diagrams, and images are protected under the Creative Commons BY-ND 4.0 (Attribution-NoDerivatives) license. This means they can be freely shared with proper attribution to the original source, but cannot be modified without the authors' explicit permission.
+- Textual content, figures, diagrams, and images are all protected under this license.
+- You are free to share and distribute this document, provided that proper credit is given to the original authors.
+- Modifications, derivative works, or adaptations of any kind are not permitted without explicit authorization from the authors.
+
+For further details, refer to the [LICENSE.md](./LICENSE.md) file in this repository.
 
 ## **Contribution and Validation Process**
 
