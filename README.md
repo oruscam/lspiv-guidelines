@@ -77,14 +77,34 @@ This guide is licensed under the **Creative Commons BY-ND 4.0 (Attribution-NoDer
 For more details, see the [LICENSE.md](./LICENSE.md) file or visit [Creative Commons BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/).
 
 ## 🏗 Contributing
-Contributions are welcome! To contribute:
-1. **Fork** this repository.
-2. Create a new branch: `git checkout -b feature-new-improvement`
-3. Commit your changes: `git commit -m "Added feature X"`
-4. Push to the branch: `git push origin feature-new-improvement`
-5. Open a **Pull Request** for review.
 
-## 📞 Contact
-For questions or suggestions, feel free to open an **Issue** in this repository or contact the development team.
+We welcome contributions! There are two main ways to contribute:
+
+### 🔹 **1. Suggest Improvements via Issues** (No Git knowledge required)  
+If you want to report an error, suggest a change, or propose an improvement:  
+1. Open an **Issue** in this repository.  
+2. Select the **Contribution Request** template and fill in the details.  
+3. A reviewer will evaluate your suggestion and provide feedback.  
+
+### 🔹 **2. Submit a Pull Request (PR)** (For users familiar with Git)  
+If you prefer to contribute directly with a modification:  
+1. **Fork** this repository.  
+2. Create a new branch for your changes:  
+   ```sh
+   git checkout -b feature-new-improvement
+   ```  
+3. Commit your changes following the repository guidelines:  
+   ```sh
+   git commit -m "Improved section X with better explanation"
+   ```  
+4. Push your changes:  
+   ```sh
+   git push origin feature-new-improvement
+   ```  
+5. Open a **Pull Request (PR) to `main`** for review.  
+
+### 📌 **Major Changes or New Features? Let's Discuss!**  
+If your contribution involves **significant modifications or new sections**, please **open an Issue first** or contact the development team before proceeding.  
+
 
 ---
