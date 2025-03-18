@@ -1,0 +1,61 @@
+name: Contribution Request
+description: Suggest a correction, improvement, or new content for the guide.
+title: "[Contribution] Your title here"
+labels: ["contribution", "review needed"]
+body:
+  - type: markdown
+    attributes:
+      value: "### **Thank you for your contribution!** Before submitting, please review the existing issues to ensure your suggestion is not duplicated."
+      
+  - type: dropdown
+    id: contribution_type
+    attributes:
+      label: "🔹 Type of Contribution"
+      description: "Select the category that best describes your contribution."
+      options:
+        - "📌 Correction (typos, grammar, formatting)"
+        - "📖 Content improvement (clarity, readability)"
+        - "🛠 Technical contribution (new section, methodology update)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "📑 Describe your contribution"
+      description: "Explain your suggestion in detail. If it's a correction, specify where the error is. If it's an improvement, describe the changes."
+      placeholder: "Provide as much context as possible..."
+    validations:
+      required: true
+
+  - type: input
+    id: reference_section
+    attributes:
+      label: "📖 Affected Section"
+      description: "Which section of the guide does this affect? (e.g., 'Fieldwork', 'Processing Steps', 'Annexes')"
+      placeholder: "Enter the section title or number"
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: "🤔 Why is this change necessary?"
+      description: "Explain why your suggestion improves the guide."
+      placeholder: "This change improves clarity because..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "💡 Additional Notes"
+      description: "Any additional context, references, or links to supporting materials."
+      placeholder: "You can link research papers, external resources, or similar references."
+
+  - type: checkboxes
+    id: license_agreement
+    attributes:
+      label: "✅ Contribution Agreement"
+      description: "By submitting this request, you confirm that your contribution adheres to the guide's license."
+      options:
+        - label: "I acknowledge that my contribution follows the [CC BY-ND 4.0 license](https://creativecommons.org/licenses/by-nd/4.0/)."
+          required: true
