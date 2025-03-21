@@ -5,15 +5,18 @@
 
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![Languages: EN/ES](https://img.shields.io/badge/Languages-EN%2FES-yellow)](https://github.com/yourusername/yourrepo)
+[![WMO HydroHub](https://img.shields.io/badge/WMO-HydroHub-blue)](https://hydrohub.wmo.int/)
+
 
 # LSPIV User Guide
 
 ## 📌 Introduction
 This repository contains the **Introductory Practical Guide to Flow Measurement Using Images**, designed to provide best practices and recommendations for new users interested in measuring surface velocity and water flow using **Large-Scale Particle Image Velocimetry (LSPIV)**.
 
-This guide was developed as part of the project **"RIVeR-LAC: Innovation in Large-Scale Particle Image Velocimetry for Water Resource Management"**. The project was selected through the **WMO HydroHub Innovation Call for Latin America and the Caribbean**, organized by the **World Meteorological Organization (WMO)** and funded by the **Inter-American Development Bank (IDB)**.
+This guide was hosteded and led by [ORUS](https://x.com/Orus_cam) as part of the project **"RIVeR-LAC: Innovation in Large-Scale Particle Image Velocimetry for Water Resource Management"**. The project was selected through the **WMO HydroHub Innovation Call for Latin America and the Caribbean**, organized by the **World Meteorological Organization (WMO)** and funded by the **Inter-American Development Bank (IDB)**.
 
-## 🚀 Key Features
+## ✨ Key Features
 
 This guide is designed in **simple language**, bridging the gap between users with **little or no experience** and highly technical documentation. It is **richly illustrated with figures and diagrams**, making complex concepts easier to understand.
 
@@ -35,8 +38,8 @@ This guide is designed in **simple language**, bridging the gap between users wi
 
 ## 📖 How to Access the Guide
 The **LSPIV User Guide** is available in two languages:
-- **English version**: [Guidelines_EN.md](./Guidelines_EN.md)
-- **Spanish version**: [Guidelines_ES.md](./Guidelines_ES.md)
+- **English version** 🇺🇸: [Guidelines_EN.md](./Guidelines_EN.md)
+- **Spanish version** 🇦🇷: [Guidelines_ES.md](./Guidelines_ES.md)
 
 To read the guide, simply open the corresponding Markdown file in any text editor or Markdown viewer.
 
