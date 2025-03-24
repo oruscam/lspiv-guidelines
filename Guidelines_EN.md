@@ -16,7 +16,7 @@
   <img src="img/logo2_EN.png">
 </p> 
 
-*** 
+***
 
 This guide was developed as part of the project "RIVeR-LAC: Innovation in Large-Scale Particle Image Velocimetry for Water Resource Management". The project was selected through the WMO HydroHub Innovation Call for Latin America and the Caribbean, organized by WMO and funded by the Inter-American Development Bank.
 
@@ -148,7 +148,7 @@ For proper use of this guide, it is recommended to follow the proposed order. Be
 
 [6. Annexes](#6-annexes)  
 
-# 1. Introduction
+# 1. Introduction {#1-introduction}
 
 Accurate measurement of streamflow is essential for efficient water resources management. These data are crucial for the planning of hydraulic infrastructure, flood risk management, and environmental impact monitoring, among other applications.
 
@@ -158,7 +158,8 @@ From a technical perspective, hydroacoustic methods require a high degree of spe
 
 These limitations highlight the need to complement traditional methods with alternative approaches that are more cost-effective, less invasive, and offer innovative solutions for flow measurement. Instead of replacing existing techniques, integrating new methodologies like Large-Scale Particle Image Velocimetry (LSPIV) broadens the available tools, improving data coverage and accessibility for effective water resource management.
 
-## 1.1 Image-Based Velocimetry Techniques: Operating Principle
+## 1.1. Image-Based Velocimetry Techniques: Operating Principle {#11-image-based-velocimetry-techniques-operating-principle}  
+
 
 
 One of the oldest methods for estimating surface flow velocity is the float method, in which a floating object is released into the flow, and its travel time over a known distance is recorded. The velocity of the tracer is calculated by dividing the traveled distance by the measured time, assuming that the tracer moves at the same speed as the free surface of the flow. This technique provides a simple estimate of the average surface velocity along the tracer's path ([Figure 1](#fig1)).
@@ -205,7 +206,7 @@ Originally, PIV and PTV were developed for laboratory applications, where contro
 
 This guide focuses on the application of the LSPIV technique, which is currently among the most widely used methods for image-based discharge measurement in watercourses. While the content presented here is specific to LSPIV, many of the recommendations and best practices described are also applicable to other image-based velocimetry techniques. The main difference lies in the method used to calculate surface velocities, as different approaches, such as STIV, employ distinct algorithms to derive velocity fields. Despite these variations, the fundamental principles related to image acquisition, processing, and quality control remain relevant across multiple techniques.
 
-## 1.2 Large-Scale Particle Image Velocimetry (LSPIV)
+## 1.2. Large-Scale Particle Image Velocimetry (LSPIV) {#12large-scale-particle-image-velocimetry-lspiv} 
 
 
 The term *Large-Scale* refers to the capability of the PIV technique to perform measurements in natural environments, covering large flow areas with conditions that cannot be replicated in a laboratory. To apply LSPIV, a video must record the free surface of a watercourse. This requires three basic elements: a camera, a flow with surface tracers, and an adequate light source ([Figure 4](#fig4)).
@@ -298,7 +299,8 @@ For simplicity, [Figure 9](#fig9) schematically represents the computation of di
 
 LSPIV has become established as a reliable and cost-effective technique for measuring discharge, demonstrating accuracy comparable to traditional methods, such as current meters or hydroacoustic techniques, under optimal conditions of lighting, recording, and tracer distribution. However, its performance may be affected in scenarios where conditions are less favorable for implementing the technique, such as a lack of surface tracers, poor lighting conditions, or the presence of wind, among others. The uncertainty in discharge measurement is typically around 10–15% under conditions suitable for applying the technique. However, no generalized methods currently exist for determining error. Proper fieldwork planning (site selection, recording approach, and topographic surveys) and the use of complementary techniques, such as seeding artificial tracers, help mitigate these limitations and maintain consistent results.
 
-## 1.3 Advantages, disadvantages, and common questions
+## 1.3. Advantages, disadvantages, and common questions {#13-advantages-disadvantages-and-common-questions}  
+
 
 Below are the advantages and disadvantages of the LSPIV technique, as well as some practical limitations that may affect its implementation. These points provide a general overview of the strengths and challenges of the technique and help to better understand its applications and field constraints.
 
@@ -338,7 +340,8 @@ In highly turbulent flows, such as areas near hydraulic jumps, there are usually
 
 **What is the uncertainty of the technique in discharge measurements?** There is currently no standardized method for calculating LSPIV uncertainty due to the many variables involved in measurement. However, under optimal conditions, the uncertainty is comparable to other discharge measurement techniques, such as hydroacoustic methods. In general, LSPIV is associated with an uncertainty range of approximately 10–15%, primarily due to the difficulty in determining the alpha coefficient. However, under favorable conditions, if the relationship between surface velocity ($V_{s}$) and depth-averaged velocity ($V_{m}$) is well established, this uncertainty can be reduced, achieving values similar to those obtained with acoustic instruments. In less favorable conditions, uncertainty can increase significantly. The quantification and reduction of uncertainty in LSPIV is currently an active research field, with various groups working on more robust methodologies for uncertainty estimation.
 
-## 1.4 Guide organization
+## 1.4. Guide organization {#14-guide-organization}  
+
 
 As you progress through this guide, the two main phases of the LSPIV-based discharge measurement process will be detailed: **fieldwork** and **processing steps**. In the *Fieldwork* chapter, the recommendations and procedures necessary for proper data collection at the measurement site will be covered. Subsequently, in the *Processing steps* chapter, the processes and techniques for processing and analyzing the collected data will be detailed. This structure is designed to guide the reader through all stages of the process, from site preparation to final result interpretation, ensuring consistency and quality in measurements.
 Additionally, annexes will be included, covering more technical and specific topics for those who wish to delve deeper into the details of the process and the methodologies employed.
@@ -349,7 +352,7 @@ Additionally, annexes will be included, covering more technical and specific top
 &nbsp;
 &nbsp;
 
-# 2. Fieldwork
+# 2. Fieldwork {#2-fieldwork}
 
 
 This chapter is dedicated to the recommendations necessary for conducting fieldwork for discharge estimation using the LSPIV technique. It provides clear and practical guidelines on how to prepare and execute measurements to obtain reliable results. It covers how to select the appropriate measurement site, how to properly position the camera, and what aspects to consider when recording videos.
@@ -404,12 +407,13 @@ This system enables recordings to be obtained without requiring a person on-site
 | Oblique          | 2D or 3D                | 2D                      |
 | Fixed station    | 2D or 3D                | 3D                      |
 
-## 2.1 Recommendations by recording type
+## 2.1. Recommendations by recording type {#21-recommendations-by-recording-type}  
 
 
 Specific recommendations for each type of recording are related to site selection, camera positioning, control points for rectification, and video recording. **These recommendations should be considered simultaneously, as all aspects are interrelated. It is not about following a strict order, but rather evaluating and adjusting all variables together to ensure that measurements are effective, safe, and that results are reliable.**
 
-### 2.1.1 Perpendicular recording
+### 2.1.1. Perpendicular recording {#211-perpendicular-recording}  
+
 
 
 #### 2.1.1.1 Site Selection
@@ -649,7 +653,8 @@ Before leaving the measurement site, answer the following questions:
 &nbsp;
 
 
-### 2.1.2 Oblique recording
+### 2.1.2. Oblique recording {#212-oblique-recording}  
+
 
 
 #### 2.1.2.1 Site selection
@@ -882,7 +887,8 @@ Before leaving the measurement site, answer the following questions:
 &nbsp;
 &nbsp;
 
-### 2.1.3 Fixed station
+### 2.1.3. Fixed station {#213-fixed-station}  
+
 
 An LSPIV Fixed Station consists of a permanently installed camera with a view of the watercourse being monitored. It includes an electrical cabinet, a protective weatherproof enclosure housing the electronic components and hardware of the station. Additionally, it may include an energy supply source, such as a solar panel.
 
@@ -1001,7 +1007,8 @@ At sites with a historical staff gauge, it is advisable to integrate all measure
 
 Additionally, if site and flow conditions allow, optical methods can be used to measure the free surface water level. This can be done using images obtained by the Fixed Station or by installing a separate dedicated camera for this purpose.
 
-## 2.2 Bathymetric survey
+## 2.2. Bathymetric survey {#22-bathymetric-survey}  
+
 
 This section outlines general guidelines for surveying cross-sections used for discharge computation. This process can be conducted on the same day as the video recording, provided flow conditions allow it. Otherwise, assuming the section is not subject to significant erosion or sedimentation, the survey can be performed before or after the video recording. It is recommended to complement this information with best practices in topographic surveying, depending on the equipment used.
 
@@ -1028,7 +1035,8 @@ Figure 38: Schematic representation of bathymetric survey for a cross-section. <
 
 ***
 
-# 3. Processing steps
+# 3. Processing steps {#3-processing-steps}  
+
 
 This chapter describes the process of analyzing and processing the data collected in the field for flow discharge measurement using image-based velocimetry techniques. Through these recommendations, the user is guided from organizing the recorded material to interpreting the obtained results. Clear guidelines are provided on the use of specialized software, image correction, and the implementation of image-based velocimetry algorithms. Additionally, best practices are highlighted to optimize measurement accuracy, addressing potential challenges that may arise during processing.
 
@@ -1043,7 +1051,8 @@ The workflow covered in this chapter consists of the following stages:
     4.  **Application of the PIV algorithm**
     5.  **Discharge estimation**
 
-## 3.1 Software selection
+## 3.1. Software selection {#31-software-selection}  
+
 
 There are various software options available for processing recordings and estimating discharge using LSPIV ([Table 2](#tab2)). Although each software may have particularities in its interface and functionalities, most share the same fundamental processing stages. In some cases, the order in which these stages are performed may vary depending on the software, but the general workflow remains similar. The process includes:
 
@@ -1072,7 +1081,7 @@ Table 2: Available software for the implementation of the LSPIV technique. (\*) 
 | **[DischargeKeeper](https://www.photrack.ch/developments.html) (\*)** | Proprietary        | Specific por Fixed stations  Image Extraction Preprocessing Corrections Surface Velocity Calculation Postprocessing Filters 3D Rectification Discharge Calculation | Graphical                  |
 | **[KLT-IV](https://sourceforge.net/projects/klt-iv/) (\*)**          | Free Executable    | Image Extraction Preprocessing Corrections Surface Velocity Calculation Postprocessing Filters 1D, 2D, and 3D Rectification Discharge Calculation                  | Graphical                  |
 
-## 3.2 Data check
+## 3.2. Data check {#32-data-check} 
 
 
 Before starting the processing of recordings for surface velocity and discharge estimation using image-based velocimetry techniques, it is essential to verify that all necessary files are available and in the correct formats. These include:
@@ -1099,10 +1108,11 @@ The location of the cross-sections can generally be defined manually on an image
 4.  **Marked-up image:** A field image with the Control Points (CPs) and cross-section clearly marked is recommended. This visual reference helps ensure consistency in data processing, particularly when different people are involved in field data collection and analysis.
 5.  **Reference values:** If reference data is available, ensure that it is comparable to the results obtained by LSPIV. Reference data may include velocity or discharge values obtained by other techniques or discharge estimates from a stage-discharge curve.
 
-## 3.3 Workflow
+## 3.3. Workflow {#33-workflow} 
 
 
-### 3.3.1 Selection of the video time interval to process
+### 3.3.1. Selection of the video time interval to process {#331-selection-of-the-video-time-interval-to-process}  
+
 
 
 The video time interval to be processed is the time range that will be used for surface velocity and discharge estimation, which may be shorter than the total duration of the video. The goal is to identify the longest possible interval where the best conditions for LSPIV application are met. The following recommendations should be considered for its selection:
@@ -1120,7 +1130,8 @@ The video time interval to be processed is the time range that will be used for 
 6.  **Document limitations.** If point (d) cannot be met, it is recommended to process the available time interval and document it in the measurement details. This will help assess the quality of the image-based velocimetry measurement and evaluate its uncertainty.
 7.  **Process and compare multiple suitable intervals.** If multiple time intervals within the recording meet these recommendations, it is beneficial to process each separately. The results can then be averaged to obtain a single discharge value or compared to evaluate measurement consistency.
 
-### 3.3.2 Image extraction
+### 3.3.2. Image extraction {#332-image-extraction}  
+
 
 Once the video interval to be processed has been selected, the next step is to extract the images that will be used to estimate surface velocities. This involves determining the appropriate resolution and the number of images per second. Below are some recommendations for performing this task efficiently:
 
@@ -1155,7 +1166,8 @@ Figure 39: Variation in the number of frames per second during image extraction.
 > 
 >  *Once the images have been extracted, visually inspect all of them to verify that the process was carried out correctly. Check that the number of images and resolution are appropriate and that there are no extraction issues, such as identical images or pixelated frames.* 
 
-### 3.3.3 Camera motion correction and lens distortion
+### 3.3.3. Camera motion correction and lens distortion {#333-camera-motion-correction-and-lens-distortion}  
+
 
 The image correction and stabilization stage involves correcting any unintended camera movement during recording, as well as possible distortions caused by the lens used. Both corrections are not always necessary and will depend on the recording conditions. Below are general comments on both corrections, while additional technical details can be found in [Annex 1](#An1).
 
@@ -1182,7 +1194,8 @@ Most LSPIV software includes options to apply lens correction models based on th
 
 
 
-### 3.3.4 Rectification: Transforming pixels to length units
+### 3.3.4. Rectification: Transforming pixels to length units {#334-rectification-transforming-pixels-to-length-units}  
+
 
 In this step, the geometry of the images is transformed to convert pixel distances into length units (e.g., meters). Some software tools perform rectification directly on the images before processing, while others apply this correction to the surface velocity fields after processing. In both cases, the procedure remains the same. The following sections detail the rectification process according to the video recording mode. For more information, refer to [Annex 3](#An3).
 
@@ -1261,7 +1274,8 @@ If the pixel coordinates must be entered via a file, an external tool should be 
 >  <p align="center">Figure 45b: Examples of 3D rectification control. <em>Source:</em> Own elaboration</p>
 > 
 
-### 3.3.5 Definition of Cross Sections
+### 3.3.5. Definition of Cross Sections {#335-definition-of-cross-sections}  
+
 
 
 This step involves defining the cross sections along which discharge will be estimated ([Figure 46](#fig46)). The sections must be precisely positioned within the image to ensure accurate velocity measurements and subsequent discharge calculations. This process can be carried out in two ways:
@@ -1284,7 +1298,8 @@ This step involves defining the cross sections along which discharge will be est
 >  <p align="center">Figure 46b: Example of poor cross-section placement. <em>Source:</em> Own elaboration</p>
 > 
 
-### 3.3.6 Processing: Application of the PIV algorithm
+### 3.3.6. Processing: Application of the PIV algorithm {#336-processing-application-of-the-piv-algorithm}  
+
 
 In this stage, the main objective is to calculate the velocity fields on the water surface using the Particle Image Velocimetry (PIV) technique. This process involves several steps, where analysis areas are defined, images are optimized, and specialized algorithms are applied to estimate surface velocity vectors. Throughout this sequence, it is crucial to perform quality control to ensure accuracy and minimize errors, guaranteeing a reliable surface velocity field for flow analysis. It is important to note that the steps described below may vary slightly depending on the software used. Therefore, it is recommended to review the specific documentation for each tool to ensure the correct application of the method. The general workflow includes the following steps (for more details, refer to [Annex 2](#An2)):
 
@@ -1358,7 +1373,8 @@ Additionally, there are specialized filters for artificial tracers, which help d
 
 **Calculation of the mean/median velocity field:** For each processed image pair, a velocity field is obtained, representing surface displacement between the time steps tᵢ and tᵢ₊₁. The time interval (tᵢ₊₁ - tᵢ) is defined by the video’s frames per second (FPS) and the selected step for processing. To estimate discharge, it is necessary to calculate the mean velocity field over time. Most software tools use either the arithmetic mean or the median to compute a representative value of surface velocity across all processed image pairs.
 
-### 3.3.7 Discharge estimation
+### 3.3.7. Discharge estimation {#337-discharge-estimation}  
+
 
 The final step in the LSPIV processing workflow is to estimate discharge based on the obtained surface velocity fields. This process involves integrating velocity data with the bathymetry of the selected cross section and applying a velocity correction factor to obtain the mean velocity in depth. The steps for discharge estimation are outlined below.
 
@@ -1384,7 +1400,7 @@ The final step in the LSPIV processing workflow is to estimate discharge based o
 
 ***
 
-# 4. Bibliography
+# 4. Bibliography {#4-bibliography}
 
 
 **PIV:**  
@@ -1440,7 +1456,7 @@ Winsemius, H., Annor, F. O., Hagenaars, R., van de Giesen, N., Luxemburg, W., & 
 
 ***
 
-# 5. Glossary
+# 5. Glossary {#5-glossary}
 
 $\alpha$: Surface-to-depth velocity correction coefficient
 
@@ -1481,9 +1497,9 @@ UAV: Unmanned Aerial Vehicle
 XS: Cross-section
 
 
-*** 
+***
 
-# 6. Annexes
+# 6. Annexes {#6-annexes} 
 
 <details id="An1">
 
