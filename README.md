@@ -19,8 +19,8 @@ This guide was hosteded and led by [ORUS](https://x.com/Orus_cam) as part of the
 ## 📥 Download PDF Guidelines
 For your convenience, you can download the complete guidelines in PDF format:
 
-English PDF 🇺🇸: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_EN.pdf)
-Spanish PDF 🇦🇷: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_ES.pdf)
+- **English PDF** 🇺🇸: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_EN.pdf)
+* **Spanish PDF** 🇦🇷: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_ES.pdf)
 
 These PDF versions contain all diagrams, figures, and detailed explanations for both fieldwork and processing steps.
 
