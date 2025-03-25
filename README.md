@@ -5,7 +5,7 @@
 
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
-[![Languages: EN/ES](https://img.shields.io/badge/Languages-EN%2FES-yellow)](https://github.com/yourusername/yourrepo)
+[![Languages: EN/ES](https://img.shields.io/badge/Languages-EN%2FES-yellow)](https://github.com/oruscam/lspiv-guidelines/tree/main/pdf)
 [![WMO HydroHub](https://img.shields.io/badge/WMO-HydroHub-blue)](https://hydrohub.wmo.int/)
 
 
@@ -15,6 +15,14 @@
 This repository contains the **Introductory Practical Guide to Flow Measurement Using Images**, designed to provide best practices and recommendations for new users interested in measuring surface velocity and water flow using **Large-Scale Particle Image Velocimetry (LSPIV)**.
 
 This guide was hosteded and led by [ORUS](https://x.com/Orus_cam) as part of the project **"RIVeR-LAC: Innovation in Large-Scale Particle Image Velocimetry for Water Resource Management"**. The project was selected through the **WMO HydroHub Innovation Call for Latin America and the Caribbean**, organized by the **World Meteorological Organization (WMO)** and funded by the **Inter-American Development Bank (IDB)**.
+
+## 📥 Download PDF Guidelines
+For your convenience, you can download the complete guidelines in PDF format:
+
+English PDF 🇺🇸: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_EN.pdf)
+Spanish PDF 🇦🇷: [Download LSPIV_Guidelines_EN.pdf](./pdf/Guidelines_ES.pdf)
+
+These PDF versions contain all diagrams, figures, and detailed explanations for both fieldwork and processing steps.
 
 ## ✨ Key Features
 
