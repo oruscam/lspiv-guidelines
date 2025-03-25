@@ -2043,7 +2043,7 @@ This equation relates the coordinates of a point in the real world with its proj
 
 
 
-If the camera model is more sophisticated than the pinhole model, such as a digital camera with a lens and sensor ([Figure A.3.2](#figA32)), the relationship between real-world coordinates ($$X$$, $$Y$$, $$Z$$) and projected pixel coordinates ($\widetilde{u}$, $\widetilde{v}$, $\widetilde{w}$) can be written as:
+If the camera model is more sophisticated than the pinhole model, such as a digital camera with a lens and sensor ([Figure A.3.2](#figA32)), the relationship between real-world coordinates ($X$, $Y$, $Z$) and projected pixel coordinates ($\widetilde{u}$, $\widetilde{v}$, $\widetilde{w}$) can be written as:
 
 <a id="e35"></a>  
 <p align="center">
