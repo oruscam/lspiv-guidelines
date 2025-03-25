@@ -10,7 +10,8 @@
   <img src="img/portada.png">
 </p> 
 
-<p align="center"> Versión: 1.0.0 </p> 
+<p id="version-info" align="center">Versión: 1.0.0</p>
+ 
 
 <p align="center">
   <img src="img/logo2_ES.png">
